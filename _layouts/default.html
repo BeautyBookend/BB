@@ -10,8 +10,8 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" type="text/css" href="/style.css">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml">
+  <link rel="stylesheet" type="text/css" href="{{ '/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ '/feed.xml' | relative_url }}">
 
   <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'" crossorigin="anonymous">
@@ -62,8 +62,8 @@
     </script>
 
     <!-- Favicon -->
-    <link rel="icon" href="/images/flower.webp" type="image/webp">
-    <link rel="apple-touch-icon" href="/images/flower.webp">
+    <link rel="icon" href="{{ '/images/flower.webp' | relative_url }}" type="image/webp">
+    <link rel="apple-touch-icon" href="{{ '/images/flower.webp' | relative_url }}">
 
     <!-- Open Graph for social sharing -->
     <meta property="og:title" content="{{ site.title }}">
@@ -91,10 +91,10 @@
        1. PERFORMANCE PRELOADS (Best practice)
        ============================================================ -->
   <!-- Preload Silktide CSS so the banner styles apply instantly -->
-  <link rel="preload" href="/Silktide/silktide-consent-manager.css" as="style">
+  <link rel="preload" href="{{ '/Silktide/silktide-consent-manager.css' | relative_url }}" as="style">
 
   <!-- Preload your main site stylesheet -->
-   <link rel="preload" href="/assets/css/style.css" as="style">
+   <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
 
   <!-- Preload GA4 script -->
   <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-N08CPLZ22R" as="script">
@@ -103,10 +103,10 @@
        2. CRITICAL CSS LOAD ORDER
        ============================================================ -->
   <!-- Silktide CSS FIRST (so banner styles override nothing and apply instantly) -->
-  <link rel="stylesheet" href="/Silktide/silktide-consent-manager.css"> 
+  <link rel="stylesheet" href="{{ '/Silktide/silktide-consent-manager.css' | relative_url }}"> 
 
   <!-- Your site CSS SECOND (your theme styles) -->
-   <link rel="stylesheet" href="/assets/css/style.css">
+   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <!-- ============================================================
        3. GOOGLE CONSENT MODE v2 + GA4
@@ -232,7 +232,7 @@
          document.documentElement.classList.remove('non-regulated');
 
         const script = document.createElement('script');
-        script.src = '/Silktide/silktide-consent-manager.js';
+        script.src = "{{ '/Silktide/silktide-consent-manager.js' | relative_url }}";
         script.onload = function() {
          document.documentElement.classList.remove('no-consent-banner');
 
@@ -302,10 +302,10 @@
 
         <!-- Header Logo + Info -->
         <div class="header-top">
-          <a href="/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.title }} avatar"></a>
+          <a href="{{ '/' | relative_url }}" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.title }} avatar"></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
         </div>
@@ -404,23 +404,23 @@
       <div class="CategoryContainer">
 
         <div class="TestCat">
-          <a href="/skin-care/"><img src="/assets/images/skin-care-category.webp" alt="Skin Care"></a>
-          <a class="text1" href="/skin-care/">Skin Care</a>
+          <a href="{{ '/skin-care/' | relative_url }}"><img src="{{ '/assets/images/skin-care-category.webp' | relative_url }}" alt="Skin Care"></a>
+          <a class="text1" href="{{ '/skin-care/' | relative_url }}">Skin Care</a>
         </div>
 
         <div class="TypesCat">
-          <a href="/bath-and-shower/"><img src="/assets/images/bath-shower-category.webp" alt="Bath & Shower"></a>
-          <a class="text1" href="/bath-and-shower/">Bath and Shower</a>
+          <a href="{{ '/bath-and-shower/' | relative_url }}"><img src="{{ '/assets/images/bath-shower-category.webp' | relative_url }}" alt="Bath & Shower"></a>
+          <a class="text1" href="{{ '/bath-and-shower/' | relative_url }}">Bath and Shower</a>
         </div>
 
         <div class="AutoCat">
-          <a href="/cosmetics/"><img src="/assets/images/cosmetics-category.webp" alt="Cosmetics"></a>
-          <a class="text1" href="/cosmetics/">Cosmetics</a>
+          <a href="{{ '/cosmetics/' | relative_url }}"><img src="{{ '/assets/images/cosmetics-category.webp' | relative_url }}" alt="Cosmetics"></a>
+          <a class="text1" href="{{ '/cosmetics/' | relative_url }}">Cosmetics</a>
         </div>
 
         <div class="DevOpsCat">
-          <a href="/hair-care/"><img src="/assets/images/hair-care-category.webp" alt="Hair Care"></a>
-          <a class="text1" href="/hair-care/">Hair Care</a>
+          <a href="{{ '/hair-care/' | relative_url }}"><img src="{{ '/assets/images/hair-care-category.webp' | relative_url }}" alt="Hair Care"></a>
+          <a class="text1" href="{{ '/hair-care/' | relative_url }}">Hair Care</a>
         </div>
 
       </div>
@@ -433,7 +433,7 @@
           <div class="recent-post-card" style="background: #f5eaed;">
             <a href="{{ post.url | relative_url }}">
               <div class="recent-thumbnail">
-                <img src="{{ post.image | default: '/assets/default-thumbnail.jpg' }}" alt="{{ post.title }}">
+                <img src="{{ post.image | default: '/assets/default-thumbnail.jpg' | relative_url }}" alt="{{ post.title }}">
               </div>
               <h3 class="recent-post-title" style="background: #f5eaed;">{{ post.title }}</h3>
             </a>
@@ -487,7 +487,7 @@
         const q = input.value.trim();
         if (!q) return;
         hideSearchForm();
-        window.location.href = `/search-results/?q=${encodeURIComponent(q)}`;
+        window.location.href = `{{ '/search-results/' | relative_url }}?q=${encodeURIComponent(q)}`;
       };
 
       function hideSearchForm() {
@@ -520,7 +520,7 @@
         const q = input.value.trim();
         if (!q) return;
         hideSearchForm();
-        window.location.href = `/search-results/?q=${encodeURIComponent(q)}`;
+        window.location.href = `{{ '/search-results/' | relative_url }}?q=${encodeURIComponent(q)}`;
       };
 
       function hideSearchForm() {
