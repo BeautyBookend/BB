@@ -5,7 +5,7 @@ permalink: /disclaimer/
 ---
 
 <nav class="breadcrumbs">
-  <a href="/">🏠</a> &gt;
+  <a href="{{ '/' | relative_url }}">🏠</a> &gt;
   <span class="current">Disclaimer</span>
 </nav>
 
