@@ -76,7 +76,7 @@ permalink: /about/
       </p>
 
       <p>
-        Beauty Blurbs was created to bring clarity to the world of beauty care — to help you understand 
+        Beauty Bookend was created to bring clarity to the world of beauty care — to help you understand 
         what you’re using, why it works, and how to build routines that support your skin, hair, 
         and confidence.
       </p>
@@ -94,13 +94,13 @@ permalink: /about/
       <h2>A Note From the Creator</h2>
 
       <p>
-        Hi, I’m Margaret — the voice behind <strong>Beauty Blurbs</strong>.
+        Hi, I’m Margaret — the voice behind <strong>Beauty Bookend</strong>.
       </p>
 
       <p>
         I started this blog because I believe beauty care should feel empowering, not confusing. 
         Over the years, I’ve tested routines, researched ingredients, and learned how to build simple, 
-        effective habits that actually help your skin and hair thrive. Beauty Blurbs is my way of sharing 
+        effective habits that actually help your skin and hair thrive. Beauty Bookend is my way of sharing 
         what I’ve learned — clearly, honestly, and without the fluff.
       </p>
 
