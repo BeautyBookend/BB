@@ -158,24 +158,27 @@
 </div>
 
 <!-- Social Share Buttons -->
-<div class='social-share'>
-  <a class='Xbtn' href='#' aria-label="social share X">
-    <svg viewBox='0 0 14 14'>
-      <image href='/images\X2.png' width="14" height="14" />
+<!-- Social Share Buttons -->
+<div class="social-share">
+
+  <a class="Xbtn" href="#" aria-label="social share X">
+    <svg viewBox="0 0 14 14">
+      <image href="{{ '/images/X2.png' | relative_url }}" width="14" height="14" />
     </svg>
   </a>
 
-  <a class='facebook' href='#' aria-label="social share facebook">
-    <svg viewBox='0 0 14 14'>
-      <image href='/images\facebook2.png' width="14" height="14" />
+  <a class="facebook" href="#" aria-label="social share facebook">
+    <svg viewBox="0 0 14 14">
+      <image href="{{ '/images/facebook2.png' | relative_url }}" width="14" height="14" />
     </svg>
   </a>
 
-  <a class='pinterest' href='#' aria-label="social share pinterest">
-    <svg viewBox='0 0 14 14'>
-      <image href='/images\pinterest2.png' width="14" height="14" />
+  <a class="pinterest" href="#" aria-label="social share pinterest">
+    <svg viewBox="0 0 14 14">
+      <image href="{{ '/images/pinterest2.png' | relative_url }}" width="14" height="14" />
     </svg>
   </a>
+
 </div>
 
 
@@ -196,7 +199,7 @@
 
   function shareOnX() {
     let title = document.title;
-    title = "Beauty Blurbs BLOG PAGE: " + title;
+    title = "Beauty Bookend BLOG PAGE: " + title;
     const url = window.location.href;
     const shareUrl = 'https://x.com/intent/post?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
     window.open(shareUrl, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
@@ -219,7 +222,7 @@
  <!-- Copyright Attribution -->
   <div class="copyr" style="font-size:14px; color:#555; text-align:center; padding:12px 0;">
   © <script>document.write(new Date().getFullYear());</script>
-  <span style="font-weight:400; font-size:14px;">Beauty Blurbs</span> · All Rights Reserved
+  <span style="font-weight:400; font-size:14px;">Beauty Bookend</span> · All Rights Reserved
 </div>
 
 <style>
