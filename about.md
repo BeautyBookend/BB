@@ -5,8 +5,7 @@ permalink: /about/
 ---
 
 <nav class="breadcrumbs">
-  <a href="/">🏠</a> &gt;
-  <span class="current">About</span>
+  <a href="{{ '/' | relative_url }}">🏠</a>{% assign cat = page.categories[0] %}&gt;<a href="{{ cat | downcase | replace: ' ', '-' | prepend: '/' | append: '/' | relative_url }}">{{ cat }}</a>&gt;<span class="current-page-title">{{ page.title }}</span>
 </nav>
 
 <div class="page-container">
