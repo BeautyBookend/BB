@@ -21,7 +21,7 @@ permalink: /privacy/
 
 <p>
 Welcome to Beauty Bookend, located at 
-<a href="https://https://camscom.github.io/BeautyBookend.github.io">https://https://camscom.github.io/BeautyBookend.github.io</a> (the “Site”). 
+<a href="https://camscom.github.io/BeautyBookend.github.io">https://camscom.github.io/BeautyBookend.github.io</a> (the “Site”). 
 This Privacy Policy explains what personal information we collect, how we use it, and the rights available to visitors under applicable privacy laws.
 </p>
 
