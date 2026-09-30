@@ -20,13 +20,13 @@ permalink: /privacy/
 <br /><br />
 
 <p>
-Welcome to Beauty Blurbs, located at 
-<a href="https://beautyblurbs.com">https://beautyblurbs.com</a> (the “Site”). 
+Welcome to Beauty Bookend, located at 
+<a href="https://https://camscom.github.io/BeautyBookend.github.io">https://https://camscom.github.io/BeautyBookend.github.io</a> (the “Site”). 
 This Privacy Policy explains what personal information we collect, how we use it, and the rights available to visitors under applicable privacy laws.
 </p>
 
 <p>
-Beauty Blurbs is a static website hosted on GitHub Pages. We do not maintain user accounts or store personal information on our own servers. 
+Beauty Bookend is a static website hosted on GitHub Pages. We do not maintain user accounts or store personal information on our own servers. 
 Any personal information collected is limited to what you voluntarily provide (such as comments or email inquiries) or what is automatically collected through standard web technologies.
 </p>
 
@@ -95,7 +95,7 @@ We may also disclose information if required by law or to protect our rights.
 
 <p>
 Depending on your location, you may have specific rights regarding your personal information.  
-Because Beauty Blurbs does not maintain user accounts or store data on our own servers, we can only act on the limited information we have access to (such as comments or emails you have sent).
+Because Beauty Bookend does not maintain user accounts or store data on our own servers, we can only act on the limited information we have access to (such as comments or emails you have sent).
 </p>
 
 <h3>Privacy Rights for Canadian Visitors (PIPEDA)</h3>
@@ -135,7 +135,7 @@ Because Beauty Blurbs does not maintain user accounts or store data on our own s
 <h2>How to Submit a Privacy Request</h2>
 
 <p>
-To exercise any privacy rights, please contact us at <strong>contact@beautyblurbs.com</strong>.  
+To exercise any privacy rights, please contact us at <strong>beautybookend@outlook.com</strong>.  
 We may request additional information to verify your identity.  
 Because we do not store user accounts or maintain databases, we can only act on information you have directly provided (such as comments or emails).
 </p>
@@ -159,7 +159,7 @@ Any changes will be posted on this page with an updated “Last Updated” date.
 
 <p>
 For questions about this Privacy Policy or your personal information, please contact us at  
-<strong>contact@beautyblurbs.com</strong>.
+<strong>beautybookend@outlook.com</strong>.
 </p>
 
 
