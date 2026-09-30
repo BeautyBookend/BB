@@ -22,7 +22,7 @@ permalink: /cookie-policy/
 <h2>Quick Summary for Visitors</h2>
 
 <p>
-Beauty Blurbs uses a small number of cookies to help the website function and to understand how visitors use the Site. 
+Beauty Bookend uses a small number of cookies to help the website function and to understand how visitors use the Site. 
 We do not sell personal information, and we only collect the minimum data needed to operate the Site.
 </p>
 
@@ -36,11 +36,11 @@ We do not sell personal information, and we only collect the minimum data needed
 
 <p>
 If you have questions or want to exercise your privacy rights, please contact us at  
-<strong>contact@beautyblurbs.com</strong>.
+<strong>beautybookend@outlook.com</strong>.
 </p>
 
 <p>
-This Cookie Policy explains how Beauty Blurbs uses cookies and similar technologies to improve your browsing experience. 
+This Cookie Policy explains how Beauty Bookend uses cookies and similar technologies to improve your browsing experience. 
 Our cookie practices differ depending on your location. Visitors in the EU/UK will see a cookie banner and may choose their preferences. 
 Visitors in Canada and the United States will not see a cookie banner, and analytics cookies load by default.
 </p>
@@ -73,7 +73,7 @@ For visitors in the EU/UK, analytics cookies only load if you accept them throug
 
 <h3>3. Advertising & Personalization Cookies</h3>
 <p>
-Beauty Blurbs does not run personalized advertising for visitors in Canada or the United States.  
+Beauty Bookend does not run personalized advertising for visitors in Canada or the United States.  
 For EU/UK visitors, advertising cookies remain off unless accepted through the cookie banner.
 </p>
 
@@ -118,7 +118,7 @@ We may use the following third‑party tools, which may set cookies depending on
       <tr>
         <td>Necessary</td>
         <td>Supports core site functionality</td>
-        <td>Beauty Blurbs</td>
+        <td>Beauty Bookend</td>
         <td>Session / Short-term</td>
       </tr>
       <tr>
@@ -158,7 +158,7 @@ For full details, please refer to our <a href="/privacy/">Privacy Policy</a>.
 
 <p>
 If you have questions about this Cookie Policy, please contact us at  
-<strong>contact@beautyblurbs.com</strong>.
+<strong>beautybookend@outlook.com</strong>.
 </p>
 
 
