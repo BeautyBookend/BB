@@ -5,7 +5,7 @@ permalink: /search-results/
 ---
 
 <nav class="breadcrumbs">
-  <a href="/">🏠</a> &gt;
+  <a href="{{ '/' | relative_url }}">🏠</a> &gt;
   <span class="current">Search Results</span>
 </nav>
 
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     queryTitle.textContent = `Search Results for: "${query}"`;
   }
 
-  fetch("/search.json")
+  fetch("{{ '/search.json' | relative_url }}")
     .then(response => {
       if (!response.ok) throw new Error("Failed to load search.json");
       return response.json();
@@ -131,4 +131,5 @@ document.addEventListener("DOMContentLoaded", function () {
   
   } /*End Mobile*/
 </style>
+
 
