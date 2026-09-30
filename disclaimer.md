@@ -20,7 +20,7 @@ permalink: /disclaimer/
 <br /><br />
 
 <p>
-Welcome to <a href="https://beautybookend.com/">https://beautybookend.com</a>. We are passionate about skincare, ingredient education, and DIY beauty. 
+Welcome to <a href="https://https://camscom.github.io/BeautyBookend.github.io//">https://https://camscom.github.io/BeautyBookend.github.io/</a>. We are passionate about skincare, ingredient education, and DIY beauty. 
 Please read this Disclaimer carefully before using this website.
 </p>
 
@@ -40,7 +40,7 @@ medical condition, take medications, or have known allergies or sensitivities.
 <h2>2. Author Opinions</h2>
 
 <p>
-The views and opinions expressed on BeautyBookend.com are solely those of the author, based on personal experience, independent research, and general 
+The views and opinions expressed on https://camscom.github.io/BeautyBookend.github.io/ are solely those of the author, based on personal experience, independent research, and general 
 educational information. They are not intended to replace professional medical advice.
 </p>
 
@@ -81,7 +81,7 @@ preparation, storage, or use may result in contamination, instability, product f
 </p>
 
 <p>
-BeautyBookend.com makes no warranties or representations regarding the safety, effectiveness, or suitability of any DIY formulation or ingredient for 
+https://camscom.github.io/BeautyBookend.github.io/ makes no warranties or representations regarding the safety, effectiveness, or suitability of any DIY formulation or ingredient for 
 your individual needs. DIY recipes are followed at your own risk.
 </p>
 
@@ -103,7 +103,7 @@ vary based on individual skin type, sensitivities, health conditions, and other 
 <h2>8. Limitation of Liability</h2>
 
 <p>
-To the fullest extent permitted by applicable law in the United States, United Kingdom, Canada, and other jurisdictions, BeautyBookend.com, its 
+To the fullest extent permitted by applicable law in the United States, United Kingdom, Canada, and other jurisdictions, https://camscom.github.io/BeautyBookend.github.io/, its 
 owner(s), contributors, affiliates, partners, and representatives shall not be liable for any direct, indirect, incidental, consequential, special, 
 exemplary, or punitive damages arising out of or relating to your use of this website or reliance on any information provided.
 </p>
