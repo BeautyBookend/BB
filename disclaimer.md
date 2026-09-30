@@ -20,7 +20,7 @@ permalink: /disclaimer/
 <br /><br />
 
 <p>
-Welcome to <a href="https://https://camscom.github.io/BeautyBookend.github.io//">https://https://camscom.github.io/BeautyBookend.github.io/</a>. We are passionate about skincare, ingredient education, and DIY beauty. 
+Welcome to <a href='https://camscom.github.io/BeautyBookend.github.io//">https://camscom.github.io/BeautyBookend.github.io/</a>. We are passionate about skincare, ingredient education, and DIY beauty. 
 Please read this Disclaimer carefully before using this website.
 </p>
 
