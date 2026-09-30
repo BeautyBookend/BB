@@ -62,7 +62,7 @@ Thank you for taking the time to reach out to us. We appreciate your feedback an
 <h2>Contact Information</h2>
 
 <p>
-For general inquiries, you can contact us at the following email address: <strong>contact@beautyblurbs.com</strong>.
+For general inquiries, you can contact us at the following email address: <strong>beautybookend@outlook.com</strong>.
 </p>
 
 </div>
