@@ -22,7 +22,7 @@ permalink: /about/
 
   <section>
       <p>
-        Welcome to <strong>Beauty Blurbs</strong> — your everyday guide to skincare, hair care, makeup, 
+        Welcome to <strong>Beauty Bookend</strong> — your everyday guide to skincare, hair care, makeup, 
         and the simple beauty habits that make you feel good in your own skin.
       </p>
 
