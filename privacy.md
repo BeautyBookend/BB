@@ -5,7 +5,7 @@ permalink: /privacy/
 ---
 
 <nav class="breadcrumbs">
-  <a href="/">🏠</a> &gt;
+  <a href="{{ '/' | relative_url }}">🏠</a> &gt;
   <span class="current">Privacy</span>
 </nav>
 
