@@ -1,181 +1,286 @@
- <!-- FOOTER -->
-  <hr class="hero-border" style="border: 30px solid #dea8b8; width: 1270px; margin-top: 25px; margin-bottom: -75px;">
-  <div class="wrapper-footer">
-    <div class="container">
-      <footer class="footer">
+```html
+<!-- FOOTER -->
+<hr class="hero-border" style="border: 30px solid #dea8b8; width: 1270px; margin-top: 25px; margin-bottom: -75px;">
 
-		   <div class="mobile-only">
-			 <!-- content for mobile -->
-			  <div class="footer-safety" style="margin-top: 50px;"> 
-				The content on this site is for educational purposes only and is not medical advice. Always patch test new products and consult a qualified healthcare professional if you have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are followed at your own risk.  
-                <a href="https://camscom.github.io/BeautyBookend.github.io/disclaimer/" style="color: #000000; font-weight: 900px;">Read Full Disclaimer</a>
-              </div>
-		   </div>
-			   
-		   <div class="desktop-only">	 
-			 <!-- content for desktop -->  
-		     {% if page.collection == "posts" %}
-			  <div class="footer-safety" style="margin-top: 50px; justify-content: center; width: 670px; margin-left: 130px;">
-				  The content on this site is for educational purposes only and is not medical advice. Always patch test new products and consult a qualified healthcare professional if you have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are followed at your own risk.  
-                <a href="https://camscom.github.io/BeautyBookend.github.io/disclaimer/" style="color: #000000; font-weight: 900px;">Read Full Disclaimer</a>
-              </div>
-		     {% else %}
-			  <div class="footer-safety" style="margin-top: 50px; justify-content: center; margin-left: 275px; width: 670px;">	
-			    The content on this site is for educational purposes only and is not medical advice. Always patch test new products and consult a qualified healthcare professional if you have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are followed at your own risk.  
-                <a href="https://camscom.github.io/BeautyBookend.github.io/disclaimer/" style="color: #000000; font-weight: 900px;">Read Full Disclaimer</a>
-              </div>	  
-		     {% endif %}
-		   </div>	
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+
+      <div class="mobile-only">
+        <!-- content for mobile -->
+        <div class="footer-safety" style="margin-top: 50px;">
+          The content on this site is for educational purposes only and is not medical advice.
+          Always patch test new products and consult a qualified healthcare professional if you
+          have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are
+          followed at your own risk.
+
+          <a href="{{ '/disclaimer/' | relative_url }}"
+             style="color: #000000; font-weight: 900px;">
+            Read Full Disclaimer
+          </a>
+        </div>
+      </div>
 
 
-		   <div class="mobile-only">
-			 <!-- content for mobile -->
-			  <div class="amazon-attr" style="text-align: center; font-weight: 400 !important;">
-               <br>This site uses Amazon affiliate links, and I may earn a commission from qualifying purchases at no extra cost to you.</br>
-		      </div>
-		   </div>
-			   
-		   <div class="desktop-only">	 
-			 <!-- content for desktop -->  
-		     {% if page.collection == "posts" %}
-			  <div class="amazon-attr" style=" justify-content: center; font-weight: 400 !important; justify-content: center; width: 670px; margin-left: 130px;">
-				  <br>This site uses Amazon affiliate links, and I may earn a commission from qualifying purchases at no extra cost to you.</br>
-		     </div>
-		     {% else %}
-			  <div class="amazon-attr" style=" justify-content: center; font-weight: 400 !important; justify-content: center;  margin-left: 275px; width: 670px;">	
-			    <br>This site uses Amazon affiliate links, and I may earn a commission from qualifying purchases at no extra cost to you.</br>
-		      </div>	  
-		     {% endif %}
-		   </div>	  
-				    
-          
-      </footer>
-    </div>
+      <div class="desktop-only">
+        <!-- content for desktop -->
+
+        {% if page.collection == "posts" %}
+
+          <div class="footer-safety"
+               style="margin-top: 50px; justify-content: center; width: 670px; margin-left: 130px;">
+
+            The content on this site is for educational purposes only and is not medical advice.
+            Always patch test new products and consult a qualified healthcare professional if you
+            have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are
+            followed at your own risk.
+
+            <a href="{{ '/disclaimer/' | relative_url }}"
+               style="color: #000000; font-weight: 900px;">
+              Read Full Disclaimer
+            </a>
+
+          </div>
+
+        {% else %}
+
+          <div class="footer-safety"
+               style="margin-top: 50px; justify-content: center; margin-left: 275px; width: 670px;">
+
+            The content on this site is for educational purposes only and is not medical advice.
+            Always patch test new products and consult a qualified healthcare professional if you
+            have medical conditions, allergies, or concerns. DIY recipes and skincare guidance are
+            followed at your own risk.
+
+            <a href="{{ '/disclaimer/' | relative_url }}"
+               style="color: #000000; font-weight: 900px;">
+              Read Full Disclaimer
+            </a>
+
+          </div>
+
+        {% endif %}
+      </div>
+
+
+      <div class="mobile-only">
+        <!-- content for mobile -->
+
+        <div class="amazon-attr" style="text-align: center; font-weight: 400 !important;">
+          <br>
+          This site uses Amazon affiliate links, and I may earn a commission from qualifying
+          purchases at no extra cost to you.
+          <br>
+        </div>
+
+      </div>
+
+
+      <div class="desktop-only">
+        <!-- content for desktop -->
+
+        {% if page.collection == "posts" %}
+
+          <div class="amazon-attr"
+               style="justify-content: center; font-weight: 400 !important; width: 670px; margin-left: 130px;">
+
+            <br>
+            This site uses Amazon affiliate links, and I may earn a commission from qualifying
+            purchases at no extra cost to you.
+            <br>
+
+          </div>
+
+        {% else %}
+
+          <div class="amazon-attr"
+               style="justify-content: center; font-weight: 400 !important; margin-left: 275px; width: 670px;">
+
+            <br>
+            This site uses Amazon affiliate links, and I may earn a commission from qualifying
+            purchases at no extra cost to you.
+            <br>
+
+          </div>
+
+        {% endif %}
+      </div>
+
+
+    </footer>
   </div>
+</div>
 
- 
-  <style>
-	 @media (max-width: 800px) { 
-      /*Safety disclaimer - mobile */ 
-      .footer-safety {
-       width: 380px; 
-      text-align: center;  
+
+<style>
+
+  @media (max-width: 800px) {
+
+    /* Safety disclaimer - mobile */
+    .footer-safety {
+      width: 380px;
+      text-align: center;
       margin-left: 30px;
-       }
-	 .desktop-only {
-		 display: none;
-	 }	
-	.hero-border {	
-       margin-right: 0;	
-	   	
-	}	
-    } /* End Mobile */
+    }
+
+    .desktop-only {
+      display: none;
+    }
+
+    .hero-border {
+      margin-right: 0;
+    }
+
+  } /* End Mobile */
 
 
-      .footer-menu nav ul li a {
-        text-decoration: underline !important;
-		color: #333;
-	    font-weight: 400;
-	     
-      }
+  .footer-menu nav ul li a {
+    text-decoration: underline !important;
+    color: #333;
+    font-weight: 400;
+  }
 
-    .wrapper-footer {
-    	border-bottom: none !important;
-    	border-top: none !important;
-		
-	 	
-	}	
-   .footer-menu {
-    	border-bottom: none !important;
-    	border-top: none !important
-	}
-	footer {
+
+  .wrapper-footer {
     border-bottom: none !important;
-	border-top: none !important;	
-  } 
-	  
-    @media (min-width: 820px) {
-     .mobile-only {
-		 display: none;
-	 } 
+    border-top: none !important;
+  }
 
-	/* Footer width for blog posts */
-	.post-page footer {
-	  justify-content: center;
-	  margin: 0 auto;	
-	}
+
+  .footer-menu {
+    border-bottom: none !important;
+    border-top: none !important;
+  }
+
+
+  footer {
+    border-bottom: none !important;
+    border-top: none !important;
+  }
+
+
+  @media (min-width: 820px) {
+
+    .mobile-only {
+      display: none;
+    }
+
+
+    /* Footer width for blog posts */
+    .post-page footer {
+      justify-content: center;
+      margin: 0 auto;
+    }
+
 
     /* Footer width for all other pages */
-	.regular-page footer {
-	  width: 700px;
-	  justify-content: center;	
-	  margin: 0 auto;
-	}	
-    
-	
-	/* Safety disclaimer - desktop */ 
-	.footer-safety {	 
-	  font-height: 1.1em;	
-	 } 	 
-     /* Footer menu */
-	.footer-menu nav {
-	  justify-content: center;
-	  margin-bottom: 20px;
-	  width: 670px;	
-	}	
-	.footer-menu nav ul {
-	  list-style: none;
-	  display: flex;	  
-	  flex-wrap: wrap;
-	  gap: 10px;
-	  padding: 0;
-	
-	}	
-	.footer-menu nav li {
-	  display: inline-block;
-	}	
-	.footer-menu nav ul li a {
-	  text-decoration: underline;
-	  color: #333;
-	  font-weight: 400;
-	  font-size: 16px;
-	}	 	
-   }
-  </style>
+    .regular-page footer {
+      width: 700px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+
+    /* Safety disclaimer - desktop */
+    .footer-safety {
+      font-height: 1.1em;
+    }
+
+
+    /* Footer menu */
+    .footer-menu nav {
+      justify-content: center;
+      margin-bottom: 20px;
+      width: 670px;
+    }
+
+
+    .footer-menu nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+    }
+
+
+    .footer-menu nav li {
+      display: inline-block;
+    }
+
+
+    .footer-menu nav ul li a {
+      text-decoration: underline;
+      color: #333;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+  }
+
+</style>
+
 
 <!-- Footer menu -->
+
 {% include svg-icons.html %}
+
 <div class="footer-menu">
   <nav>
-	<ul>
-	  <li><a href="/about/">About</a></li>
-	  <li><a href="/contact/">Contact</a></li>
-	  <li><a href="/disclaimer/">Disclaimer</a></li>
-	  <li><a href="/privacy/">Privacy Policy</a></li>
-	  <li><a href="/cookie-policy/">Cookie Policy</a></li>	
-	</ul>
+    <ul>
+
+      <li>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </li>
+
+      <li>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </li>
+
+      <li>
+        <a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a>
+      </li>
+
+      <li>
+        <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+      </li>
+
+      <li>
+        <a href="{{ '/cookie-policy/' | relative_url }}">Cookie Policy</a>
+      </li>
+
+    </ul>
   </nav>
 </div>
 
+
 <!-- Social Share Buttons -->
-<!-- Social Share Buttons -->
+
 <div class="social-share">
 
   <a class="Xbtn" href="#" aria-label="social share X">
     <svg viewBox="0 0 14 14">
-      <image href="{{ '/images/X2.png' | relative_url }}" width="14" height="14" />
+      <image href="{{ '/images/X2.png' | relative_url }}"
+             width="14"
+             height="14" />
     </svg>
   </a>
+
 
   <a class="facebook" href="#" aria-label="social share facebook">
     <svg viewBox="0 0 14 14">
-      <image href="{{ '/images/facebook2.png' | relative_url }}" width="14" height="14" />
+      <image href="{{ '/images/facebook2.png' | relative_url }}"
+             width="14"
+             height="14" />
     </svg>
   </a>
 
+
   <a class="pinterest" href="#" aria-label="social share pinterest">
     <svg viewBox="0 0 14 14">
-      <image href="{{ '/images/pinterest2.png' | relative_url }}" width="14" height="14" />
+      <image href="{{ '/images/pinterest2.png' | relative_url }}"
+             width="14"
+             height="14" />
     </svg>
   </a>
 
@@ -183,90 +288,184 @@
 
 
 <script>
+
   function shareOnFacebook() {
+
     const title = document.title;
     const url = window.location.href;
-    const shareUrl = 'https://www.facebook.com/sharer.php?u=' + encodeURIComponent(url) + '&t=' + encodeURIComponent(title);
-    window.open(shareUrl, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+
+    const shareUrl =
+      'https://www.facebook.com/sharer.php?u=' +
+      encodeURIComponent(url) +
+      '&t=' +
+      encodeURIComponent(title);
+
+    window.open(
+      shareUrl,
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'
+    );
+
   }
+
 
   function shareOnPinterest() {
+
     const title = document.title;
     const url = window.location.href;
-    const shareUrl = 'https://www.pinterest.com/pin/create/button/?url=' + encodeURIComponent(url) + '&media=&description=' + encodeURIComponent(title);
-    window.open(shareUrl, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+
+    const shareUrl =
+      'https://www.pinterest.com/pin/create/button/?url=' +
+      encodeURIComponent(url) +
+      '&media=&description=' +
+      encodeURIComponent(title);
+
+    window.open(
+      shareUrl,
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'
+    );
+
   }
+
 
   function shareOnX() {
+
     let title = document.title;
+
     title = "Beauty Bookend BLOG PAGE: " + title;
+
     const url = window.location.href;
-    const shareUrl = 'https://x.com/intent/post?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
-    window.open(shareUrl, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+
+    const shareUrl =
+      'https://x.com/intent/post?url=' +
+      encodeURIComponent(url) +
+      '&text=' +
+      encodeURIComponent(title);
+
+    window.open(
+      shareUrl,
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'
+    );
+
   }
 
+
   document.addEventListener('DOMContentLoaded', function() {
+
     const buttons = document.querySelectorAll('.social-share a');
+
     buttons.forEach(function(button) {
+
       button.addEventListener('click', function(event) {
+
         event.preventDefault();
+
         const shareType = this.classList[0];
-        if (shareType === 'facebook') shareOnFacebook();
-        else if (shareType === 'pinterest') shareOnPinterest();
-        else if (shareType === 'Xbtn') shareOnX();
+
+        if (shareType === 'facebook') {
+          shareOnFacebook();
+        }
+
+        else if (shareType === 'pinterest') {
+          shareOnPinterest();
+        }
+
+        else if (shareType === 'Xbtn') {
+          shareOnX();
+        }
+
       });
+
     });
+
   });
+
 </script>
 
- <!-- Copyright Attribution -->
-  <div class="copyr" style="font-size:14px; color:#555; text-align:center; padding:12px 0;">
+
+<!-- Copyright Attribution -->
+
+<div class="copyr"
+     style="font-size:14px; color:#555; text-align:center; padding:12px 0;">
+
   © <script>document.write(new Date().getFullYear());</script>
-  <span style="font-weight:400; font-size:14px;">Beauty Bookend</span> · All Rights Reserved
+
+  <span style="font-weight:400; font-size:14px;">
+    Beauty Bookend
+  </span>
+
+  · All Rights Reserved
+
 </div>
 
-<style>
-/* Change width only on desktop */ 
-@media (min-width: 1025px) { 
-.copyr {
- width: 1235px; 
- } 
- }
 
- /* Hide on tablets + mobile */ 
-@media (max-width: 800px) { 
-.copyr {
- } 
- }
-</style>    
-
-{% if page.name == "about.md" or page.name == "contact.md" or page.name == "privacy.md" or page.name == "disclaimer.md" or page.name == "cookie-policy.md" %}
 <style>
-    @media (min-width: 820px) {	
-   /* Footer menu */
-	.footer-menu nav {
-	  justify-content: center;
-	  margin-bottom: 20px;
-	  width: 770px;	
-	}	
-	.footer-menu nav ul {
-	  list-style: none;
-	  display: flex;	  
-	  flex-wrap: wrap;
-	  gap: 10px;
-	  padding: 0;
-	
-	}	
-	.footer-menu nav li {
-	  display: inline-block;
-	}	
-	.footer-menu nav ul li a {
-	  text-decoration: underline;
-	  color: #333;
-	  font-weight: 400;
-	  font-size: 16px;
-	}
-	} /* Desktop end */		
+
+  /* Change width only on desktop */
+  @media (min-width: 1025px) {
+
+    .copyr {
+      width: 1235px;
+    }
+
+  }
+
+
+  /* Hide on tablets + mobile */
+  @media (max-width: 800px) {
+
+    .copyr {
+    }
+
+  }
+
 </style>
-{% endif %}
 
+
+{% if page.name == "about.md"
+   or page.name == "contact.md"
+   or page.name == "privacy.md"
+   or page.name == "disclaimer.md"
+   or page.name == "cookie-policy.md" %}
+
+<style>
+
+  @media (min-width: 820px) {
+
+    /* Footer menu */
+    .footer-menu nav {
+      justify-content: center;
+      margin-bottom: 20px;
+      width: 770px;
+    }
+
+
+    .footer-menu nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+    }
+
+
+    .footer-menu nav li {
+      display: inline-block;
+    }
+
+
+    .footer-menu nav ul li a {
+      text-decoration: underline;
+      color: #333;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+  } /* Desktop end */
+
+</style>
+
+{% endif %}
+```
