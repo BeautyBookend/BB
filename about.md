@@ -34,7 +34,7 @@ permalink: /about/
 
       <p>
         Whether you’re refreshing your skincare routine, learning how to care for your hair type, 
-        or figuring out which makeup formulas work best for your skin, Beauty Blurbs helps you cut 
+        or figuring out which makeup formulas work best for your skin, Beauty Bookend helps you cut 
         through the noise and get straight to what works.
       </p>
     </section>
@@ -68,7 +68,7 @@ permalink: /about/
     </section>
 
     <section>
-      <h2>Why Beauty Blurbs Exists</h2>
+      <h2>Why Beauty Bookend Exists</h2>
 
       <p>
         Beauty shouldn’t feel overwhelming. It shouldn’t require a chemistry degree or a massive budget. 
