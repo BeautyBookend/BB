@@ -311,36 +311,64 @@
         </div>
 
         <!-- Nav Bar -->
+        <div class="desktop-header-nav"
+     style="width: 1350px; margin-right: 75px; background: #dea8b8; display: inline; margin-left: 400px;">
 
-         <div class="desktop-header-nav" style="width: 1350px; margin-right: 75px; background: #dea8b8; display: inline; margin-left: 400px;">
-            <nav id="desk-header-nav" style="width: 1290px; border: 2px; padding-top: 5px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px; display: inline; gap: 0px; margin-top: 15px; margin-right: 0px; margin-left: 200px;">
-                <a href="/">Home</a>
-                <a href="/skin-care/">Skin Care</a>
-                <a href="/bath-and-shower/">Bath and Shower</a>
-                <a href="/cosmetics/">Cosmetics</a>
-                <a href="/hair-care/">Hair Care</a>
-           
-              
-              <div class="desktop-search" style="position: relative; display: inline-block;">
-              <!-- Main nav magnifying glass icon -->
-              <button id="desktop-search-toggle" aria-label="Search" style="font-size: 18px; background: none; border: none; cursor: pointer; margin-left: 475px;">
-                🔍
-              </button>
-            
-              <!-- Container shown on toggle -->
-              <div id="desktop-search-form" style="display: none; margin-left: 56px; align-items: center; gap: 5px;">
-                <button id="desktop-search-close" aria-label="Close Search" style="font-size: 18px; background: none; border: none; color: red; cursor: pointer;">❌</button>
-            
-                <form id="desktop-search-form-element" style="display: flex; gap: 5px;">
-                  <input type="text" id="desktop-search-input" style="padding-left: 5px;  padding-right: 5px; font-size: 18px; font-align: center; border-radius: 5px; border: 1px solid #ccc; width: 350px;" placeholder=" Search..." />
-                  <button type="submit" id="desktop-submit-btn" style="font-size: 19px; margin-left: 25px; background: none; border: none; cursor: pointer;">🔍</button>
-                </form>
-              </div>
-            </div>
-  
-              
-            </nav>
-           </div>
+  <nav id="desk-header-nav"
+       style="width: 1290px; border: 2px; padding-top: 5px; padding-bottom: 15px;
+              padding-left: 15px; padding-right: 15px; display: inline; gap: 0px;
+              margin-top: 15px; margin-right: 0px; margin-left: 200px;">
+
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/skin-care/' | relative_url }}">Skin Care</a>
+    <a href="{{ '/bath-and-shower/' | relative_url }}">Bath and Shower</a>
+    <a href="{{ '/cosmetics/' | relative_url }}">Cosmetics</a>
+    <a href="{{ '/hair-care/' | relative_url }}">Hair Care</a>
+
+    <div class="desktop-search" style="position: relative; display: inline-block;">
+
+      <!-- Main nav magnifying glass icon -->
+      <button id="desktop-search-toggle"
+              aria-label="Search"
+              style="font-size: 18px; background: none; border: none;
+                     cursor: pointer; margin-left: 475px;">
+        🔍
+      </button>
+
+      <!-- Container shown on toggle -->
+      <div id="desktop-search-form"
+           style="display: none; margin-left: 56px; align-items: center; gap: 5px;">
+
+        <button id="desktop-search-close"
+                aria-label="Close Search"
+                style="font-size: 18px; background: none; border: none;
+                       color: red; cursor: pointer;">
+          ❌
+        </button>
+
+        <form id="desktop-search-form-element"
+              style="display: flex; gap: 5px;">
+
+          <input type="text"
+                 id="desktop-search-input"
+                 style="padding-left: 5px; padding-right: 5px; font-size: 18px;
+                        font-align: center; border-radius: 5px;
+                        border: 1px solid #ccc; width: 350px;"
+                 placeholder=" Search..." />
+
+          <button type="submit"
+                  id="desktop-submit-btn"
+                  style="font-size: 19px; margin-left: 25px;
+                         background: none; border: none; cursor: pointer;">
+            🔍
+          </button>
+
+        </form>
+      </div>
+    </div>
+
+  </nav>
+</div>
        
         <style>
         #desk-header-nav a {        
