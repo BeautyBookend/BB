@@ -568,8 +568,30 @@
 </script>
 <!-- Change Browser Zoom if Web page does not fit on screen END-->
 	
+<!-- Fix legacy root-relative image paths for GitHub Pages project site -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+  const baseurl = "{{ site.baseurl }}";
 
+  document.querySelectorAll('img').forEach(function(img) {
+
+    const src = img.getAttribute("src");
+
+    if (
+      src &&
+      src.startsWith("/") &&
+      !src.startsWith("//") &&
+      !src.startsWith(baseurl + "/")
+    ) {
+      img.setAttribute("src", baseurl + src);
+    }
+
+  });
+
+});
+</script>
+<!-- Fix legacy root-relative image paths for GitHub Pages project site END-->
 
 
 
