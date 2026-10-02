@@ -321,10 +321,3 @@ Read product labels carefully, follow the manufacturer's directions, and stop us
 If you have a skin condition, known allergies, a history of significant reactions, or questions about whether a particular ingredient is appropriate for you, speak with a qualified healthcare professional.
 
 Healthy skincare does not require rushing into every new trend. A cautious, informed approach gives you time to learn what works well for your skin.
-
-
-and seek appropriate medical advice. Severe allergic-reaction symptoms such as difficulty breathing or swallowing or significant swelling require emergency medical attention.
-
-[Read Full Disclaimer](https://beautybookend.github.io/BB/disclaimer/)
-
-
