@@ -322,21 +322,8 @@ If you have a skin condition, known allergies, a history of significant reaction
 
 Healthy skincare does not require rushing into every new trend. A cautious, informed approach gives you time to learn what works well for your skin.
 
----
 
-## *Author's Note*
-
-*This article reflects general research and is provided for informational and educational purposes. It is not intended to diagnose, treat, cure, or prevent any medical condition, and it should not be used as a substitute for advice from a qualified healthcare professional.*
-
-## Reminder
-
-The content on this site is for general educational and informational purposes only and is not medical advice.
-
-Always read and follow the manufacturer's instructions, warnings, precautions, and ingredient information for any skincare or cosmetic product. Individual reactions vary, and an at-home product test cannot guarantee that irritation, an allergic reaction, or another adverse reaction will not occur.
-
-If you have a medical condition, skin disorder, known allergy, history of significant reactions, or concerns about a product or ingredient, consult a qualified healthcare professional.
-
-DIY recipes and skincare information on this site are used at your own discretion. If you experience a significant or concerning reaction, stop using the product and seek appropriate medical advice. Severe allergic-reaction symptoms such as difficulty breathing or swallowing or significant swelling require emergency medical attention.
+and seek appropriate medical advice. Severe allergic-reaction symptoms such as difficulty breathing or swallowing or significant swelling require emergency medical attention.
 
 [Read Full Disclaimer](https://beautybookend.github.io/BB/disclaimer/)
 
