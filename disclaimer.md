@@ -15,129 +15,390 @@ permalink: /disclaimer/
 
 <h2>Website Disclaimer</h2>
 
-<p><strong>Last updated: March 19, 2026</strong></p>
+<p><strong>Last updated: October 2, 2026</strong></p>
 
 <br /><br />
 
 <p>
-Welcome to <a href="https://camscom.github.io/BeautyBookend.github.io">https://camscom.github.io/BeautyBookend.github.io</a>. We are passionate about skincare, ingredient education, and DIY beauty. 
-Please read this Disclaimer carefully before using this website.
+Welcome to
+<a href="https://beautybookend.github.io/BB/">
+https://beautybookend.github.io/BB/
+</a> ("Beauty Bookend," "this website," "we," "us," or "our").
 </p>
+
+<p>
+Beauty Bookend provides general information about skincare, cosmetics,
+ingredients, beauty products, and related topics. Please read this Disclaimer
+carefully before using this website.
+</p>
+
+<p>
+By continuing to use this website, you acknowledge that you have had the
+opportunity to review this Disclaimer. If you do not agree with it, you should
+discontinue use of the website.
+</p>
+
 
 <h2>1. Educational &amp; Informational Purposes Only</h2>
 
 <p>
-All content on this website — including blog posts, DIY recipes, ingredient discussions, product recommendations, and comments — is provided for 
-educational and informational purposes only. Nothing on this website constitutes, or is intended to constitute, medical advice, diagnosis, or treatment.
+All content on Beauty Bookend — including articles, blog posts, DIY recipes,
+ingredient discussions, product information, reviews, recommendations,
+comments, images, and other materials — is provided for general educational
+and informational purposes only.
 </p>
 
 <p>
-This article provides generic information only and should not be treated as a substitute for qualified medical opinion. Always consult a licensed 
-physician, dermatologist, or other healthcare professional before beginning any new skincare routine, especially if you are pregnant, nursing, have a 
-medical condition, take medications, or have known allergies or sensitivities.
-</p>
-
-<h2>2. Author Opinions</h2>
-
-<p>
-The views and opinions expressed on https://camscom.github.io/BeautyBookend.github.io/ are solely those of the author, based on personal experience, independent research, and general 
-educational information. They are not intended to replace professional medical advice.
+Nothing on this website is intended to constitute medical advice, medical
+diagnosis, treatment, or a recommendation to diagnose, treat, cure, or prevent
+any disease, disorder, or medical condition.
 </p>
 
 <p>
-No professional‑client relationship is created by your use of this website. Your reliance on any information provided is solely at your own risk. 
-Individual results may vary.
-</p>
-
-<h2>3. Personal Responsibility &amp; Assumption of Risk</h2>
-
-<p>
-By using this website, you acknowledge that you are voluntarily choosing to use any information, recipes, or recommendations provided and assume full 
-personal responsibility for your choices and outcomes.
+Information on this website should not be used as a substitute for advice,
+diagnosis, or treatment from a physician, dermatologist, pharmacist, allergist,
+or other qualified healthcare professional.
 </p>
 
 <p>
-Skincare products — including DIY formulations, essential oils, botanical extracts, active ingredients, and over‑the‑counter products — may cause 
-irritation, allergic reactions, sensitization, burns, infection, or other adverse effects. You accept full responsibility for any outcomes resulting 
-from the use or misuse of information provided on this website.
+If you have a medical condition, skin disorder, known allergy or sensitivity,
+are pregnant or nursing, take medications, have previously experienced a
+significant reaction to a cosmetic or skincare product, or have concerns about
+a product or ingredient, consult an appropriate qualified healthcare
+professional.
 </p>
 
-<h2>4. Reminder</h2>
 
-<ul>
-  <li>Always perform a patch test before using any new skincare product or DIY formulation.</li>
-  <li>Essential oils must be properly diluted, and active ingredients (such as retinoids or exfoliating acids) may increase sun sensitivity — daily sunscreen use is strongly recommended.</li>
-  <li>Use only skin‑safe ingredients at appropriate concentrations. Natural ingredients can still cause irritation or allergic reactions.</li>
-  <li>If you are pregnant, nursing, have medical conditions, take medications, or have sensitive skin, consult a qualified healthcare professional before use.</li>
-  <li>Discontinue use immediately if irritation or adverse reactions occur.</li>
-  <li>All content is for educational purposes only.</li>
-</ul>
-
-<h2>5. DIY Formulations &amp; Ingredient Safety</h2>
+<h2>2. Manufacturer Instructions Take Priority</h2>
 
 <p>
-DIY beauty products require proper formulation, accurate measurements, appropriate dilution, sanitary preparation, and proper preservation. Improper 
-preparation, storage, or use may result in contamination, instability, product failure, or skin injury.
+Always read and follow the manufacturer's directions, warnings, precautions,
+ingredient information, recommended frequency of use, storage instructions,
+and other information supplied with a skincare or cosmetic product.
 </p>
 
 <p>
-https://camscom.github.io/BeautyBookend.github.io/ makes no warranties or representations regarding the safety, effectiveness, or suitability of any DIY formulation or ingredient for 
-your individual needs. DIY recipes are followed at your own risk.
-</p>
-
-<h2>6. Allergic Reactions &amp; Skin Sensitivity</h2>
-
-<p>Even ingredients described as “natural,” “gentle,” or “non‑toxic” may cause irritation or allergic reactions. Always perform a patch test before use.</p>
-
-<p>
-Discontinue use immediately if irritation, redness, swelling, blistering, hives, or other adverse reactions occur. Seek medical attention if necessary.
-</p>
-
-<h2>7. No Guarantees</h2>
-
-<p>
-We make no guarantees regarding specific results from the use of any products, routines, or DIY recipes discussed on this website. Skincare outcomes 
-vary based on individual skin type, sensitivities, health conditions, and other factors beyond our control.
-</p>
-
-<h2>8. Limitation of Liability</h2>
-
-<p>
-To the fullest extent permitted by applicable law in the United States, United Kingdom, Canada, and other jurisdictions, https://camscom.github.io/BeautyBookend.github.io/, its 
-owner(s), contributors, affiliates, partners, and representatives shall not be liable for any direct, indirect, incidental, consequential, special, 
-exemplary, or punitive damages arising out of or relating to your use of this website or reliance on any information provided.
+If information on Beauty Bookend differs from the manufacturer's current
+instructions or warnings for a particular product, the manufacturer's
+instructions and warnings should take priority.
 </p>
 
 <p>
-This includes, but is not limited to, personal injury, allergic reactions, skin irritation, product misuse, formulation errors, lost profits, or any 
-other loss or damages.
+Do not use a product if you know that it contains an ingredient to which you
+are allergic. Where a manufacturer recommends a patch test, sensitivity test,
+or other pre-use test, follow the manufacturer's instructions for performing
+that test.
 </p>
-
-<h2>9. External Links</h2>
 
 <p>
-This website may contain links to third‑party websites for convenience or reference. We are not responsible for the content, safety, accuracy, or 
-practices of any external websites.
+An at-home product test cannot guarantee that irritation, an allergic reaction,
+sensitization, or another adverse reaction will not occur during subsequent use.
 </p>
 
-<h2>10. Affiliate Disclosure</h2>
+
+<h2>3. No Professional Relationship</h2>
 
 <p>
-Some links on this website may be affiliate links, meaning we may earn a commission if you purchase through those links at no additional cost to you. 
-We only share products we believe may be valuable to our readers.
+The authors and contributors to Beauty Bookend are providing general
+informational content and are not acting as your physician, dermatologist,
+pharmacist, allergist, cosmetic chemist, or other healthcare professional
+unless expressly stated otherwise.
 </p>
-
-<h2>11. Acceptance of Terms</h2>
 
 <p>
-By using this website, you acknowledge that you have read, understood, and agree to be bound by this Disclaimer. If you do not agree with any part of 
-this Disclaimer, please discontinue use of this website immediately.
+Accessing, reading, commenting on, or otherwise using this website does not
+create a doctor-patient, healthcare professional-patient, professional-client,
+or other fiduciary relationship between you and Beauty Bookend or its owner,
+authors, or contributors.
 </p>
+
+
+<h2>4. Individual Results &amp; Reactions Vary</h2>
+
+<p>
+Skincare and cosmetic products can affect people differently. A product or
+ingredient that is well tolerated by one person may cause irritation, an
+allergic reaction, sensitization, acne, dryness, burning, swelling, or another
+undesired effect in another person.
+</p>
+
+<p>
+Factors including skin type, allergies, sensitivities, medical conditions,
+medications, frequency of use, concentration, formulation, application method,
+other products used at the same time, and environmental conditions may affect
+an individual's response.
+</p>
+
+<p>
+Beauty Bookend does not guarantee that any product, ingredient, routine,
+technique, or DIY formulation discussed on this website will be safe,
+appropriate, effective, or suitable for you.
+</p>
+
+
+<h2>5. DIY Formulations &amp; Ingredient Information</h2>
+
+<p>
+DIY skincare and beauty preparations may involve risks. Formulation,
+measurement, concentration, dilution, ingredient compatibility, sanitation,
+preservation, packaging, storage, shelf life, and method of use can all affect
+the safety and stability of a preparation.
+</p>
+
+<p>
+Improper preparation, preservation, storage, handling, or use may result in
+contamination, microbial growth, instability, irritation, allergic reaction,
+burns, infection, or other adverse effects.
+</p>
+
+<p>
+DIY recipes and formulation information on Beauty Bookend are provided for
+general educational purposes only. They are not professionally customized
+formulations for an individual reader and should not be interpreted as a
+guarantee of safety, stability, preservation, effectiveness, or suitability.
+</p>
+
+<p>
+If you choose to make or use a DIY product discussed on this website, you are
+responsible for evaluating whether the ingredients, concentrations, preparation
+method, storage, and intended use are appropriate for your circumstances.
+</p>
+
+
+<h2>6. Product Reactions &amp; When to Seek Help</h2>
+
+<p>
+Stop using a product if you experience a significant or concerning reaction.
+For persistent, worsening, or significant symptoms, seek advice from an
+appropriate healthcare professional.
+</p>
+
+<p>
+Symptoms such as difficulty breathing or swallowing, severe swelling of the
+face, lips, tongue, or throat, faintness, or other signs of a severe allergic
+reaction may require immediate emergency medical attention.
+</p>
+
+<p>
+Beauty Bookend is not an emergency medical service and should never be used
+instead of appropriate emergency or professional medical care.
+</p>
+
+
+<h2>7. Accuracy, Completeness &amp; Currency of Information</h2>
+
+<p>
+We make reasonable efforts to provide useful and accurate information.
+However, skincare research, cosmetic formulations, product ingredients,
+manufacturer instructions, product availability, scientific knowledge,
+regulations, and professional guidance may change over time.
+</p>
+
+<p>
+Beauty Bookend makes no representation or warranty that every piece of
+information on this website is complete, error-free, current, or applicable
+to every reader or circumstance.
+</p>
+
+<p>
+Articles may be corrected, revised, expanded, or updated without notice.
+Older articles may contain information that has subsequently changed.
+</p>
+
+<p>
+Where appropriate, readers are encouraged to verify important information
+using current manufacturer instructions, authoritative sources, or qualified
+professionals.
+</p>
+
+
+<h2>8. Product Reviews, Opinions &amp; Recommendations</h2>
+
+<p>
+Unless otherwise stated, opinions expressed on Beauty Bookend reflect the
+author's opinion or experience at the time the content was prepared.
+Individual experiences and results may differ.
+</p>
+
+<p>
+A positive review, discussion, inclusion, or recommendation of a product does
+not constitute a guarantee that the product will provide the same results for
+another person or that it will be suitable for every skin type or condition.
+</p>
+
+<p>
+Product formulations, ingredients, packaging, instructions, pricing, and
+availability may change after an article is published. Readers should verify
+current product information directly from the manufacturer or retailer before
+making a purchase or using a product.
+</p>
+
+
+<h2>9. Affiliate Links, Sponsored Content &amp; Material Connections</h2>
+
+<p>
+Beauty Bookend may use affiliate links. If you make a qualifying purchase
+through an affiliate link, Beauty Bookend may receive a commission or other
+compensation, generally at no additional cost to you.
+</p>
+
+<p>
+Beauty Bookend may also occasionally receive products, samples, discounts,
+services, sponsorship payments, or other benefits from brands or retailers.
+When a material connection exists in relation to particular content, we will
+make reasonable efforts to disclose that connection clearly with the relevant
+content.
+</p>
+
+<p>
+Compensation or receipt of a product does not guarantee a favourable review
+or recommendation. Opinions expressed are intended to reflect the author's
+genuine views and experience.
+</p>
+
+<p>
+Readers should make their own purchasing decisions based on their individual
+needs, preferences, research, and circumstances.
+</p>
+
+
+<h2>10. No Guarantees or Warranties</h2>
+
+<p>
+Beauty Bookend does not guarantee any particular skincare, cosmetic, health,
+appearance, financial, or other result from following information presented
+on this website.
+</p>
+
+<p>
+To the fullest extent permitted by applicable law, this website and its
+content are provided on an "as is" and "as available" basis without
+representations or warranties of any kind, whether express or implied.
+</p>
+
+<p>
+Nothing in this Disclaimer is intended to exclude, restrict, or limit any
+right, warranty, obligation, or liability that cannot lawfully be excluded,
+restricted, or limited.
+</p>
+
+
+<h2>11. Limitation of Liability</h2>
+
+<p>
+To the fullest extent permitted by applicable law, Beauty Bookend and its
+owner, authors, contributors, affiliates, and representatives will not be
+liable for losses, injuries, claims, damages, costs, or expenses arising from
+or related to reliance on, use of, or inability to use information or
+materials provided on this website.
+</p>
+
+<p>
+This may include, where permitted by applicable law, direct, indirect,
+incidental, consequential, special, or other damages associated with product
+reactions, product misuse, allergic reactions, skin irritation, DIY
+formulations, reliance on outdated or inaccurate information, third-party
+products, or external websites.
+</p>
+
+<p>
+Nothing in this section excludes or limits liability where such exclusion or
+limitation is prohibited by applicable law.
+</p>
+
+
+<h2>12. External Links &amp; Third-Party Content</h2>
+
+<p>
+Beauty Bookend may contain links to websites, retailers, manufacturers,
+research sources, social media services, or other third-party resources.
+These links are provided for convenience, reference, or additional
+information.
+</p>
+
+<p>
+Unless expressly stated otherwise, Beauty Bookend does not control or endorse
+third-party websites and is not responsible for their content, availability,
+accuracy, privacy practices, security, products, services, terms, or policies.
+</p>
+
+<p>
+Visiting or purchasing from a third-party website is at your discretion and
+is subject to that third party's own terms and policies.
+</p>
+
+
+<h2>13. Comments &amp; User-Submitted Content</h2>
+
+<p>
+Comments and other content submitted by readers represent the views of the
+individual submitting them and do not necessarily represent the views of
+Beauty Bookend.
+</p>
+
+<p>
+Beauty Bookend does not endorse medical, skincare, product, or other advice
+provided by readers in comments or other user-submitted content.
+</p>
+
+<p>
+We reserve the right to moderate, edit, restrict, or remove comments or other
+user-submitted material that we consider inappropriate, misleading, harmful,
+unlawful, promotional, abusive, or unrelated to the discussion.
+</p>
+
+
+<h2>14. Personal Responsibility</h2>
+
+<p>
+You are responsible for deciding whether information, products, ingredients,
+routines, or DIY projects discussed on Beauty Bookend are appropriate for
+your own circumstances.
+</p>
+
+<p>
+You should use reasonable judgment, follow product instructions and warnings,
+consider your individual circumstances, and obtain professional advice when
+appropriate.
+</p>
+
+<p>
+Nothing on Beauty Bookend should be interpreted as encouraging you to ignore
+manufacturer warnings, professional medical advice, or symptoms that may
+require professional assessment.
+</p>
+
+
+<h2>15. Changes to This Disclaimer</h2>
+
+<p>
+Beauty Bookend may revise this Disclaimer from time to time to reflect changes
+to the website, its content, applicable practices, or other circumstances.
+</p>
+
+<p>
+The "Last updated" date at the top of this page indicates when this Disclaimer
+was most recently revised.
+</p>
+
+
+<h2>16. Other Website Policies</h2>
+
+<p>
+This Disclaimer should be read together with any other policies published on
+Beauty Bookend, including our Privacy Policy and Cookie Policy.
+</p>
+
 
 <h2>Contact</h2>
 
 <p>
-For inquiries, please contact <strong>Beauty Bookend</strong> at <strong>beautybookend@outlook.com</strong>.
+If you have questions about this Disclaimer or Beauty Bookend, please contact:
+</p>
+
+<p>
+<strong>Beauty Bookend</strong><br />
+<strong>beautybookend@outlook.com</strong>
 </p>
 
 </div>
