@@ -9,7 +9,6 @@ permalink: /privacy/
   <span class="current">Privacy</span>
 </nav>
 
-```html
 <div class="page-container">
 
 <br /><br />
