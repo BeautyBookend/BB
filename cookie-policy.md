@@ -9,160 +9,264 @@ permalink: /cookie-policy/
   <span class="current">Cookie Policy</span>
 </nav>
 
+```html
 <div class="page-container">
 
 <br /><br />
 
 <h1>Cookie Policy</h1>
 
-<p><strong>Last updated: April 13, 2026</strong></p>
+<p><strong>Last updated: October 2, 2026</strong></p>
 
 <br /><br />
 
 <h2>Quick Summary for Visitors</h2>
 
 <p>
-Beauty Bookend uses a small number of cookies to help the website function and to understand how visitors use the Site. 
-We do not sell personal information, and we only collect the minimum data needed to operate the Site.
+Beauty Bookend uses a limited number of cookies and similar browser-storage technologies to operate the website,
+remember your privacy preferences, and, if you choose to allow it, understand how visitors use the Site.
 </p>
 
 <ul>
-  <li><strong>Necessary cookies</strong> help the Site load and remember your comment details.</li>
-  <li><strong>Analytics cookies</strong> help us understand which posts are most helpful.  
-      These load automatically in Canada and the United States, and only with consent in the EU/UK.</li>
-  <li><strong>No personalized ads</strong> are shown to visitors in Canada or the United States.</li>
-  <li><strong>Your privacy rights</strong> depend on your location and are explained in our Privacy Policy.</li>
+  <li><strong>Necessary technologies</strong> support essential website functions and remember your privacy choices.</li>
+  <li><strong>Analytics is optional</strong> and is disabled by default.</li>
+  <li><strong>Google Analytics is not loaded unless you choose to allow Analytics.</strong></li>
+  <li><strong>Rejecting Analytics does not prevent you from using Beauty Bookend.</strong></li>
+  <li><strong>No advertising-cookie category is currently used by Beauty Bookend.</strong></li>
+  <li>You can change your cookie preferences at any time using the cookie-preferences control on the Site.</li>
 </ul>
 
 <p>
-If you have questions or want to exercise your privacy rights, please contact us at  
+Beauty Bookend does not sell personal information.
+</p>
+
+<p>
+For more information about how personal information may be handled, please see our
+<a href="https://camscom.github.io/BeautyBookend.github.io/privacy/">Privacy Policy</a>.
+</p>
+
+<p>
+If you have questions about this Cookie Policy, please contact
 <strong>beautybookend@outlook.com</strong>.
 </p>
 
-<p>
-This Cookie Policy explains how Beauty Bookend uses cookies and similar technologies to improve your browsing experience. 
-Our cookie practices differ depending on your location. Visitors in the EU/UK will see a cookie banner and may choose their preferences. 
-Visitors in Canada and the United States will not see a cookie banner, and analytics cookies load by default.
-</p>
 
-<h2>What Are Cookies?</h2>
+<h2>1. What Are Cookies and Similar Technologies?</h2>
 
 <p>
-Cookies are small text files stored on your device to help websites function, remember preferences, and understand how visitors use the site.
-Cookies may be set by this website (first‑party cookies) or by trusted third‑party services (third‑party cookies).
-</p>
-
-<h2>Types of Cookies We Use</h2>
-
-<h3>1. Necessary Cookies</h3>
-<p>
-These cookies are essential for the Site to function. They support basic features such as page loading, security, and remembering your comment details.
-These cookies do not store personally identifiable information.
-</p>
-
-<h3>2. Analytics Cookies</h3>
-<p>
-We use analytics tools to understand how visitors use the Site. This helps us improve content and user experience. 
-Analytics cookies may collect anonymized information such as page views, browser type, and general usage patterns.
+Cookies are small text files that websites may store on your device.
+They can be used to remember preferences, support website functionality,
+measure website usage, or provide other features.
 </p>
 
 <p>
-Analytics cookies load by default for visitors in Canada and the United States.  
-For visitors in the EU/UK, analytics cookies only load if you accept them through the cookie banner.
+Websites may also use other browser-storage technologies, such as
+<strong>local storage</strong>, that serve similar purposes.
 </p>
 
-<h3>3. Advertising & Personalization Cookies</h3>
 <p>
-Beauty Bookend does not run personalized advertising for visitors in Canada or the United States.  
-For EU/UK visitors, advertising cookies remain off unless accepted through the cookie banner.
+This Cookie Policy uses the term "cookies" broadly to include cookies and
+similar browser-storage technologies where appropriate.
 </p>
 
-<h2>Google Consent Mode (EU/UK Only)</h2>
+
+<h2>2. How Beauty Bookend Uses Cookies and Browser Storage</h2>
 
 <p>
-For visitors in the EU/UK, we use Google Consent Mode to adjust how Google services behave based on your cookie choices. 
-If you reject optional cookies, Google receives a “denied” signal and will not use cookies for analytics or advertising.
+Beauty Bookend uses a privacy-consent system that separates necessary
+technologies from optional Analytics.
 </p>
 
-<h2>Managing Your Cookie Preferences</h2>
-
 <p>
-EU/UK visitors can manage cookie preferences at any time using the cookie icon displayed on the bottom-left corner of the Site.
-Visitors in Canada and the United States do not see a cookie banner, as consent is not required for analytics cookies in these regions.
+Necessary technologies may be used without Analytics consent where they are
+needed to operate the Site or remember the privacy choices you make.
 </p>
 
-<h2>Third‑Party Services</h2>
+<p>
+Optional Analytics is disabled unless you actively choose to allow it.
+</p>
+
+
+<h2>3. Necessary Technologies</h2>
 
 <p>
-We may use the following third‑party tools, which may set cookies depending on your location and preferences:
+Necessary technologies are used for functions required to operate the Site
+or remember your privacy choices.
+</p>
+
+<p>
+For example, Beauty Bookend's consent manager uses browser local storage to
+remember whether you have accepted or rejected optional Analytics.
+</p>
+
+<p>
+Necessary technologies cannot be disabled through the cookie-preferences
+manager because doing so may prevent the Site from remembering your privacy
+selection or supporting essential functionality.
+</p>
+
+<p>
+You may still remove stored information through your browser settings.
+If you delete browser data or local storage, the Site may ask you to make
+your privacy choice again.
+</p>
+
+
+<h2>4. Optional Analytics</h2>
+
+<p>
+Beauty Bookend uses <strong>Google Analytics</strong> to understand general
+website usage and improve content, navigation, and performance.
+</p>
+
+<p>
+Google Analytics is treated as an optional service.
+</p>
+
+<p>
+<strong>Google Analytics is disabled by default and is not loaded unless you
+choose to allow Analytics through the Beauty Bookend cookie-consent manager.</strong>
+</p>
+
+<p>
+If you reject non-essential technologies or leave Analytics disabled,
+Beauty Bookend does not load the Google Analytics tag through this consent
+configuration.
+</p>
+
+<p>
+If you choose to allow Analytics, Google Analytics may process information
+such as:
 </p>
 
 <ul>
-  <li><strong>Google Analytics</strong> – site usage and performance</li>
-  <li><strong>Google Ads / Personalization</strong> – EU/UK only, if accepted</li>
+  <li>Pages viewed</li>
+  <li>Visit and session information</li>
+  <li>Browser and device information</li>
+  <li>Referring pages</li>
+  <li>Approximate geographic information</li>
+  <li>Interactions with Site content</li>
 </ul>
 
-<h2>Cookies Used on This Site</h2>
+<p>
+Beauty Bookend uses this information to better understand general Site usage
+and does not use Google Analytics for the purpose of personally identifying
+individual visitors.
+</p>
+
+
+<h2>5. Silktide Consent Manager</h2>
+
+<p>
+Beauty Bookend uses the <strong>Silktide Consent Manager</strong> to manage
+optional Analytics preferences.
+</p>
+
+<p>
+When the consent manager is displayed, you may choose to:
+</p>
+
+<ul>
+  <li>Accept optional Analytics</li>
+  <li>Reject non-essential technologies</li>
+  <li>Review or adjust your preferences</li>
+</ul>
+
+<p>
+Your choice is stored in your browser's local storage so that Beauty Bookend
+can remember your selection on future visits.
+</p>
+
+<p>
+You can reopen the cookie-preferences control on the Site and change your
+Analytics preference at any time.
+</p>
+
+<p>
+If you withdraw Analytics consent, future Google Analytics activity through
+Beauty Bookend's consent configuration is disabled. Changing your preference
+does not necessarily delete information that may have been collected previously
+while Analytics was enabled.
+</p>
+
+
+<h2>6. Google Consent Mode</h2>
+
+<p>
+Beauty Bookend uses a consent-based configuration designed so that the Google
+Analytics tag is blocked until you grant Analytics consent.
+</p>
+
+<p>
+Under this configuration, if you do not grant Analytics consent, the Google
+Analytics tag does not load through Beauty Bookend and Analytics data is not
+sent through that tag.
+</p>
+
+<p>
+If you grant Analytics consent, Google Analytics may then load and operate
+according to the consent choice you made.
+</p>
+
+
+<h2>7. Advertising and Personalization</h2>
+
+<p>
+Beauty Bookend does not currently use a separate advertising-cookie category
+through its consent manager.
+</p>
+
+<p>
+The Site does not currently request consent for personalized advertising,
+advertising storage, or advertising personalization through the Silktide
+Consent Manager.
+</p>
+
+<p>
+If advertising or other tracking technologies are introduced in the future,
+this Cookie Policy and the Site's consent configuration may be updated.
+</p>
+
+
+<h2>8. Cookie and Storage Categories Used on This Site</h2>
 
 <div class="bb-table-scroll">
   <table class="bb-table">
     <thead>
       <tr>
-        <th>Cookie Type</th>
+        <th>Category</th>
         <th>Purpose</th>
-        <th>Stored By</th>
+        <th>Provider</th>
+        <th>When Used</th>
         <th>Duration</th>
       </tr>
     </thead>
+
     <tbody>
+
       <tr>
-        <td>Necessary</td>
-        <td>Supports core site functionality</td>
-        <td>Beauty Bookend</td>
-        <td>Session / Short-term</td>
+        <td>Necessary / Preferences</td>
+        <td>
+          Supports essential Site functionality and remembers your privacy
+          and Analytics preferences.
+        </td>
+        <td>Beauty Bookend / Silktide Consent Manager</td>
+        <td>Available as needed for Site operation and consent preferences</td>
+        <td>
+          Stored in browser local storage until changed or cleared
+        </td>
       </tr>
+
       <tr>
         <td>Analytics</td>
-        <td>Helps us understand site usage</td>
+        <td>
+          Helps Beauty Bookend understand general Site usage and improve
+          content and performance.
+        </td>
         <td>Google Analytics</td>
-        <td>Varies</td>
-      </tr>
-      <tr>
-        <td>Advertising</td>
-        <td>Personalization (EU/UK only)</td>
-        <td>Google Ads</td>
-        <td>Varies</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<p>
-Exact cookie names may change as services update their technology.
-</p>
-
-<h2>Your Privacy Rights</h2>
-
-<p>
-Your privacy rights depend on your location.  
-For full details, please refer to our <a href="https://camscom.github.io/BeautyBookend.github.io/privacy/">Privacy Policy</a>.
-</p>
-
-<ul>
-  <li><strong>Canada (PIPEDA):</strong> Access, correction, and withdrawal of consent</li>
-  <li><strong>EU/UK (GDPR):</strong> Access, deletion, objection, portability, and more</li>
-  <li><strong>California (CCPA/CPRA):</strong> Access, deletion, correction, and opt‑out rights</li>
-</ul>
-
-<h2>Contact Us</h2>
-
-<p>
-If you have questions about this Cookie Policy, please contact us at  
-<strong>beautybookend@outlook.com</strong>.
-</p>
-
-
-</div>
+        <td>Only after you allow Analytics</td>
+        <td>
+          Varies according to Google
 
 <style>
   @media only screen and (min-width: 820px) and (max-width: 2000px) {
