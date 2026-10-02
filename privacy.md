@@ -9,6 +9,7 @@ permalink: /privacy/
   <span class="current">Privacy</span>
 </nav>
 
+```html
 <div class="page-container">
 
 <br /><br />
@@ -21,23 +22,23 @@ permalink: /privacy/
 
 <p>
 Welcome to <strong>Beauty Bookend</strong>, located at
-<a href="https://beautybookend.github.io/BB/">
-https://beautybookend.github.io/BB/
+<a href="https://camscom.github.io/BeautyBookend.github.io">
+https://camscom.github.io/BeautyBookend.github.io
 </a> (the "Site").
 </p>
 
 <p>
 Beauty Bookend respects the privacy of its visitors. This Privacy Policy
 explains what information may be collected when you visit or interact with
-the Site, why it may be collected, how it may be used, and the choices and
-rights that may be available to you under applicable privacy laws.
+the Site, why it may be collected, how it may be used, and the privacy choices
+that may be available to you.
 </p>
 
 <p>
 Beauty Bookend is primarily a static website hosted using GitHub Pages.
 We do not operate user accounts or maintain our own customer database.
-However, information may be processed by the third-party services used to
-host, secure, analyze, and operate the Site.
+However, information may be processed by third-party services used to host,
+secure, analyze, and operate the Site.
 </p>
 
 
@@ -45,7 +46,7 @@ host, secure, analyze, and operate the Site.
 
 <p>
 The information collected depends on how you interact with Beauty Bookend.
-It may include information you provide voluntarily and limited technical
+It may include information you voluntarily provide and limited technical
 information generated when you visit the Site.
 </p>
 
@@ -56,8 +57,7 @@ information generated when you visit the Site.
 
 <p>
 If you contact Beauty Bookend by email, we receive your email address,
-the contents of your message, and any other information you choose to
-provide.
+the contents of your message, and any other information you choose to provide.
 </p>
 
 <p>
@@ -92,8 +92,8 @@ sensitive personal information in a public comment.
 
 <p>
 When you access the Site, certain technical information may be processed
-automatically by Beauty Bookend's hosting, analytics, security, or other
-service providers.
+automatically by Beauty Bookend's hosting, security, or other service
+providers.
 </p>
 
 <p>
@@ -103,16 +103,15 @@ include:
 
 <ul>
   <li>IP address</li>
-  <li>Approximate geographic location, such as country, region, or city</li>
+  <li>Approximate geographic location</li>
   <li>Browser type and version</li>
   <li>Device type</li>
   <li>Operating system</li>
   <li>Screen or device characteristics</li>
-  <li>Pages viewed</li>
+  <li>Pages requested</li>
   <li>Date and time of visits</li>
   <li>Referring website or page</li>
-  <li>Interactions with the Site</li>
-  <li>General website performance and usage information</li>
+  <li>General website performance and security information</li>
 </ul>
 
 
@@ -124,123 +123,123 @@ provided by GitHub.
 </p>
 
 <p>
-When a GitHub Pages website is visited, GitHub may process information
-associated with the request, including a visitor's IP address, for purposes
-such as providing, securing, maintaining, and protecting its services.
+When a GitHub Pages website is visited, GitHub may process technical
+information associated with the request, including a visitor's IP address,
+for purposes such as delivering, securing, maintaining, and protecting its
+services.
 </p>
 
 <p>
 Beauty Bookend does not control GitHub's independent data-processing
-practices. For additional information, visitors should review GitHub's
-current Privacy Statement.
+practices. Visitors should review GitHub's current Privacy Statement for
+additional information about how GitHub processes information.
 </p>
 
 
 <h2>3. Cookies and Similar Technologies</h2>
 
 <p>
-Cookies are small files or similar technologies that may be stored on your
-device when you visit a website.
+Cookies and similar technologies are small files or browser-storage
+mechanisms that can be used to remember information between visits.
 </p>
 
 <p>
-Beauty Bookend may use cookies or similar technologies for purposes such as:
+Beauty Bookend uses limited browser storage for purposes such as:
 </p>
 
 <ul>
-  <li>Remembering privacy and cookie preferences</li>
-  <li>Operating website features</li>
-  <li>Understanding how visitors use the Site</li>
-  <li>Measuring website performance</li>
-  <li>Preventing abuse or maintaining security</li>
+  <li>Remembering your cookie and privacy preferences</li>
+  <li>Operating necessary website functionality</li>
+  <li>Allowing optional analytics when you choose to permit it</li>
 </ul>
 
 <p>
-Some cookies are necessary for a website or a requested feature to operate.
-Other cookies, including certain analytics cookies, may be considered
-non-essential.
+Beauty Bookend distinguishes between <strong>necessary</strong> technologies
+and <strong>optional analytics</strong> technologies.
 </p>
 
 <p>
-Beauty Bookend uses a cookie consent management system to provide visitors
-with information about cookies and, where appropriate, allow visitors to
-accept or reject categories of non-essential cookies.
-</p>
-
-<p>
-Your available choices may depend on your location and the applicable
-privacy or electronic communications rules.
-</p>
-
-<p>
-You can also control or delete cookies using your web browser settings.
-Disabling certain cookies may affect how some website features operate.
+Necessary technologies are used for functions required to operate the Site
+or remember your privacy choices. Optional analytics technologies are
+disabled unless you choose to allow them.
 </p>
 
 
-<h2>4. Cookie Consent Preferences</h2>
+<h2>4. Silktide Consent Manager</h2>
 
 <p>
-Beauty Bookend uses the <strong>Silktide Consent Manager</strong> to help
-manage cookie and privacy preferences.
+Beauty Bookend uses the <strong>Silktide Consent Manager</strong> to provide
+visitors with controls over optional analytics technologies.
 </p>
 
 <p>
-The consent system may store information on your device so that the Site
-can remember the privacy choices you previously made.
-</p>
-
-<p>
-Where applicable, non-essential analytics technologies are intended to
-operate in accordance with the preferences selected through the consent
-manager.
-</p>
-
-<p>
-You may be able to change or withdraw your cookie preferences through the
-cookie settings available on the Site.
-</p>
-
-
-<h2>5. Region Detection</h2>
-
-<p>
-Beauty Bookend may use limited region or country information to determine
-which privacy or cookie-consent experience should be displayed to a visitor.
-</p>
-
-<p>
-A Cloudflare-hosted service may be used for this purpose. Requests to that
-service may involve technical information such as your IP address being
-processed by Cloudflare as part of providing the network request.
-</p>
-
-<p>
-Beauty Bookend uses the resulting location information for purposes such as
-determining the appropriate cookie-consent settings and does not use it to
-determine your precise physical location.
-</p>
-
-<p>
-Cloudflare's handling of information is also subject to its own privacy
-practices and policies.
-</p>
-
-
-<h2>6. Google Analytics</h2>
-
-<p>
-Beauty Bookend uses <strong>Google Analytics</strong> to better understand
-how visitors interact with the Site.
-</p>
-
-<p>
-Google Analytics may process information such as:
+When you first visit the Site, the consent manager may allow you to:
 </p>
 
 <ul>
-  <li>Pages visited</li>
-  <li>Approximate location</li>
+  <li>Accept optional analytics</li>
+  <li>Reject non-essential technologies</li>
+  <li>Review and adjust your cookie preferences</li>
+</ul>
+
+<p>
+Necessary technologies cannot be disabled through the consent manager because
+they are used to provide essential Site functionality and remember your privacy
+choices.
+</p>
+
+<p>
+Analytics is optional and is disabled by default until you choose to allow it.
+</p>
+
+<p>
+The Silktide Consent Manager stores your cookie preferences in your browser's
+local storage so that the Site can remember your previous choice when you
+return.
+</p>
+
+<p>
+You can reopen the cookie-preferences control on the Site and change your
+selection. Changes to your analytics preference are applied when your
+preference is updated.
+</p>
+
+<p>
+Deleting browser data or local storage may remove your saved preference,
+in which case the Site may ask you to make a new privacy choice.
+</p>
+
+
+<h2>5. Google Analytics</h2>
+
+<p>
+Beauty Bookend uses <strong>Google Analytics</strong> to understand general
+website usage and improve Site content and performance.
+</p>
+
+<p>
+Google Analytics is treated as an optional analytics service.
+</p>
+
+<p>
+<strong>Google Analytics is not loaded by Beauty Bookend unless you choose
+to allow Analytics through the Silktide Consent Manager.</strong>
+</p>
+
+<p>
+If you reject non-essential technologies or leave Analytics disabled,
+Beauty Bookend does not load the Google Analytics tag through this consent
+configuration.
+</p>
+
+<p>
+If you choose to allow Analytics, the Google Analytics tag may then collect
+and process information such as:
+</p>
+
+<ul>
+  <li>Pages viewed</li>
+  <li>Approximate geographic location</li>
   <li>Browser and device information</li>
   <li>Referring pages</li>
   <li>Interactions with Site content</li>
@@ -248,10 +247,9 @@ Google Analytics may process information such as:
 </ul>
 
 <p>
-Google Analytics 4 may use a visitor's IP address during data collection
-to derive approximate geographic information. According to Google, IP
-addresses collected through Google Analytics 4 are not logged or stored
-in Google Analytics after this processing.
+Beauty Bookend uses this information to understand aggregate Site usage,
+such as which pages are visited and how visitors generally interact with
+the Site.
 </p>
 
 <p>
@@ -260,14 +258,28 @@ identifying individual visitors.
 </p>
 
 <p>
-Google independently processes information in accordance with its own
-terms, privacy policies, and data-processing practices.
+Google processes Analytics information according to its own terms, privacy
+policies, and data-processing practices.
+</p>
+
+
+<h2>6. No Advertising Cookies</h2>
+
+<p>
+Beauty Bookend does not currently use a separate advertising-cookie category
+through its Silktide consent manager.
 </p>
 
 <p>
-Where consent is required for analytics cookies or similar technologies,
-your preferences may be managed through Beauty Bookend's cookie consent
-system.
+The Site does not currently use the consent manager to request permission
+for personalized advertising, advertising storage, or advertising
+personalization.
+</p>
+
+<p>
+If Beauty Bookend introduces advertising technologies in the future, this
+Privacy Policy and the cookie-consent configuration may be updated before
+or when those technologies are introduced.
 </p>
 
 
@@ -279,9 +291,9 @@ Information may be used for legitimate website purposes including:
 
 <ul>
   <li>Operating and maintaining Beauty Bookend</li>
-  <li>Responding to emails and inquiries</li>
+  <li>Responding to email inquiries</li>
   <li>Displaying and moderating comments, where applicable</li>
-  <li>Understanding general Site usage and audience trends</li>
+  <li>Understanding general Site usage when Analytics has been permitted</li>
   <li>Improving articles, navigation, performance, and usability</li>
   <li>Remembering privacy and cookie preferences</li>
   <li>Preventing spam, fraud, abuse, or security incidents</li>
@@ -291,40 +303,28 @@ Information may be used for legitimate website purposes including:
 </ul>
 
 
-<h2>8. Legal Bases for Processing Where Applicable</h2>
+<h2>8. Consent and Privacy Choices</h2>
 
 <p>
-Where privacy law requires a legal basis for processing personal information,
-the applicable basis will depend on the particular activity.
+Where consent is used as the basis for optional analytics, you may choose
+whether to allow that processing through the Silktide Consent Manager.
 </p>
 
 <p>
-These bases may include:
+You may withdraw or change your Analytics preference using the cookie
+preferences available on the Site.
 </p>
 
-<ul>
-  <li>
-    <strong>Consent</strong> — for example, where consent is required before
-    using certain non-essential cookies or analytics technologies.
-  </li>
-
-  <li>
-    <strong>Legitimate interests</strong> — where permitted by applicable
-    law, for purposes such as maintaining Site security, responding to
-    communications, understanding basic Site performance, or preventing
-    abuse.
-  </li>
-
-  <li>
-    <strong>Legal obligations</strong> — where information must be retained,
-    disclosed, or otherwise processed to comply with applicable law.
-  </li>
-</ul>
+<p>
+Changing your preference affects future Analytics activity through the
+Site's consent configuration. It does not necessarily delete information
+that was lawfully collected by a third-party service before you changed
+your preference.
+</p>
 
 <p>
-Where processing relies on consent, you may withdraw that consent where
-permitted. Withdrawal does not affect processing lawfully carried out before
-consent was withdrawn.
+You may also delete cookies and browser-storage information using your
+browser settings.
 </p>
 
 
@@ -335,22 +335,21 @@ Beauty Bookend does not sell personal information.
 </p>
 
 <p>
-Information may be processed by third-party providers that help operate or
-support the Site. Depending on the services being used, these may include:
+Information may be processed by third-party service providers that help
+operate or support the Site. Depending on the services being used, these
+may include:
 </p>
 
 <ul>
   <li>GitHub, for website hosting</li>
-  <li>Google, for website analytics</li>
-  <li>Cloudflare, for network or region-detection services</li>
-  <li>Silktide Consent Manager, for managing cookie preferences</li>
+  <li>Google, for website analytics when Analytics has been permitted</li>
   <li>Microsoft, when visitors contact Beauty Bookend using our Outlook email address</li>
   <li>A commenting or spam-prevention provider, if such a feature is enabled</li>
 </ul>
 
 <p>
 These organizations may process information according to their own privacy
-policies, contractual obligations, or applicable laws.
+policies, terms, contractual obligations, and applicable laws.
 </p>
 
 <p>
@@ -392,7 +391,7 @@ to legitimate operational, security, legal, or record-keeping requirements.
   <li>
     <strong>Email:</strong>
     Email correspondence may be retained for as long as reasonably necessary
-    to respond to the inquiry, maintain relevant records, or address future
+    to respond to an inquiry, maintain relevant records, or address future
     follow-up.
   </li>
 
@@ -404,22 +403,28 @@ to legitimate operational, security, legal, or record-keeping requirements.
   </li>
 
   <li>
+    <strong>Cookie preferences:</strong>
+    Silktide privacy preferences may remain stored in your browser's local
+    storage until they are changed, cleared, or removed through your browser.
+  </li>
+
+  <li>
     <strong>Google Analytics:</strong>
-    Analytics information is retained in accordance with the retention
-    settings configured for the Google Analytics property and Google's
-    applicable policies.
+    Where Analytics has been permitted, Analytics information is retained
+    according to the retention settings configured for the Google Analytics
+    property and Google's applicable policies.
   </li>
 
   <li>
     <strong>Hosting and security information:</strong>
-    GitHub, Cloudflare, and other infrastructure providers may retain logs
-    and related information according to their own retention policies.
+    GitHub and other infrastructure providers may retain logs and related
+    information according to their own policies.
   </li>
 
 </ul>
 
 
-<h2>12. Your Privacy Choices and Rights</h2>
+<h2>12. Your Privacy Rights</h2>
 
 <p>
 Depending on where you live and which privacy laws apply, you may have
@@ -436,7 +441,7 @@ These may include the right to:
   <li>Request correction of inaccurate information</li>
   <li>Request deletion of information where applicable</li>
   <li>Withdraw consent where processing is based on consent</li>
-  <li>Object to or request restrictions on certain processing</li>
+  <li>Object to or request restrictions on certain processing where applicable</li>
   <li>Request portability of certain information where applicable</li>
   <li>Make a complaint to an appropriate privacy or data-protection authority</li>
 </ul>
@@ -458,9 +463,9 @@ addressed directly with the applicable provider.
 <p>
 Where Canadian privacy law applies, Beauty Bookend aims to handle personal
 information in accordance with applicable privacy principles, including
-identifying appropriate purposes for collection, limiting collection and use,
-using reasonable safeguards, and providing meaningful information about our
-privacy practices.
+identifying appropriate purposes, limiting collection and use, providing
+meaningful information about privacy practices, and using reasonable
+safeguards.
 </p>
 
 <p>
@@ -474,7 +479,7 @@ exceptions.
 
 <p>
 Where the European Union General Data Protection Regulation, United Kingdom
-GDPR, or related privacy and electronic communications laws apply, additional
+GDPR, or related privacy and electronic-communications laws apply, additional
 rights may be available to you.
 </p>
 
@@ -490,8 +495,9 @@ authority responsible for your location.
 </p>
 
 <p>
-Where required, non-essential cookies or similar tracking technologies are
-subject to the visitor's consent choices.
+Optional Google Analytics technologies are disabled by default and are
+enabled through Beauty Bookend only when you choose to allow Analytics
+through the consent manager.
 </p>
 
 
@@ -499,7 +505,7 @@ subject to the visitor's consent choices.
 
 <p>
 Certain U.S. states provide residents with additional privacy rights when
-their privacy laws apply to a particular business.
+their privacy laws apply to a particular organization.
 </p>
 
 <p>
@@ -507,13 +513,13 @@ Beauty Bookend does not sell personal information.
 </p>
 
 <p>
-If a state privacy law applies to Beauty Bookend and gives you specific
-rights, you may contact us using the information below to submit a request.
-We will respond as required by applicable law.
+If an applicable state privacy law gives you specific rights concerning
+information under Beauty Bookend's control, you may contact us using the
+information below. We will respond as required by applicable law.
 </p>
 
 
-<h2>16. Children’s Privacy</h2>
+<h2>16. Children's Privacy</h2>
 
 <p>
 Beauty Bookend is intended for a general audience and is not directed to
@@ -521,8 +527,8 @@ children.
 </p>
 
 <p>
-We do not knowingly request personal information from children through user
-accounts because the Site does not provide user account registration.
+We do not provide user account registration and do not knowingly request
+personal information from children through user accounts.
 </p>
 
 <p>
@@ -542,8 +548,9 @@ privacy and security risks.
 </p>
 
 <p>
-However, no website, Internet transmission, email system, or electronic
-storage method can be guaranteed to be completely secure.
+However, no website, Internet transmission, email system, browser-storage
+mechanism, or electronic storage method can be guaranteed to be completely
+secure.
 </p>
 
 <p>
@@ -580,7 +587,7 @@ requirements.
 
 <p>
 Any revised version will be posted on this page. The "Last updated" date
-at the top of the page identifies when the policy was most recently
+at the top of the page identifies when this policy was most recently
 revised.
 </p>
 
@@ -618,6 +625,7 @@ practices may be sent to:
 </p>
 
 </div>
+
 
 <style>
   @media only screen and (min-width: 820px) and (max-width: 2000px) {
