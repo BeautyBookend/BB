@@ -111,6 +111,11 @@
   href="{{ '/assets/css/style.css' | relative_url }}"
   as="style">
 
+<link
+  rel="preload"
+  href="https://www.googletagmanager.com/gtag/js?id=G-N08CPLZ22R"
+  as="script">
+
 
 <!-- ============================================================
      2. CSS
@@ -126,10 +131,13 @@
 
 
 <!-- ============================================================
-     3. GOOGLE ANALYTICS LOADER
-     
-     GA4 does NOT load until Analytics consent is granted.
-     Measurement ID: G-N08CPLZ22R
+     3. GOOGLE CONSENT MODE + GA4
+
+     Analytics starts DENIED.
+
+     GA4 itself loads immediately so that consent changes can be
+     applied reliably. A normal page_view is not sent until
+     Analytics has been granted.
      ============================================================ -->
 
 <script>
@@ -140,67 +148,109 @@
     dataLayer.push(arguments);
   }
 
-  let googleAnalyticsLoaded = false;
+
+  /*
+   * Default privacy state.
+   *
+   * Analytics denied.
+   * Advertising denied.
+   */
+  gtag('consent', 'default', {
+
+    analytics_storage: 'denied',
+
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+
+    functionality_storage: 'granted',
+    security_storage: 'granted',
+
+    wait_for_update: 1000
+
+  });
+
+</script>
 
 
-  function loadGoogleAnalytics() {
-
-    if (googleAnalyticsLoaded) {
-      return;
-    }
-
-    googleAnalyticsLoaded = true;
+<!-- Load Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-N08CPLZ22R">
+</script>
 
 
-    /*
-     * Analytics has been granted.
-     * Advertising-related consent remains denied.
-     */
-    gtag('consent', 'default', {
+<script>
 
-      analytics_storage: 'granted',
-
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-
-      functionality_storage: 'granted',
-      security_storage: 'granted'
-
-    });
+  gtag('js', new Date());
 
 
-    /*
-     * Load Google Analytics only after consent.
-     */
-    const gaScript = document.createElement('script');
+  /*
+   * Configure GA4 but DO NOT automatically send the initial
+   * page_view.
+   *
+   * We send the page_view ourselves after Analytics has been
+   * granted.
+   */
+  gtag('config', 'G-N08CPLZ22R', {
 
-    gaScript.async = true;
+    send_page_view: false,
 
-    gaScript.src =
-      'https://www.googletagmanager.com/gtag/js?id=G-N08CPLZ22R';
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
 
-    document.head.appendChild(gaScript);
-
-
-    /*
-     * Queue GA initialization.
-     */
-    gtag('js', new Date());
-
-    gtag('config', 'G-N08CPLZ22R', {
-      send_page_view: true
-    });
+  });
 
 
-    console.log('[CONSENT] Beauty Bookend Google Analytics enabled');
+  /*
+   * Prevent duplicate page views on the same page.
+   */
+  let consentPageViewSent = false;
 
-  }
+
+  /*
+   * Update Analytics consent.
+   */
+  function setAnalyticsConsent(allowed) {
+
+    if (allowed === true) {
+
+      gtag('consent', 'update', {
+
+        analytics_storage: 'granted',
+
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+
+      });
 
 
-  function disableGoogleAnalytics() {
+      /*
+       * Send this page to GA4 once Analytics has been granted.
+       */
+      if (!consentPageViewSent) {
 
-    if (googleAnalyticsLoaded) {
+        consentPageViewSent = true;
+
+        gtag('event', 'page_view', {
+
+          page_title: document.title,
+
+          page_location: window.location.href,
+
+          page_path:
+            window.location.pathname +
+            window.location.search
+
+        });
+
+      }
+
+
+      console.log('[CONSENT] Analytics granted');
+
+    } else {
 
       gtag('consent', 'update', {
 
@@ -212,10 +262,10 @@
 
       });
 
+
+      console.log('[CONSENT] Analytics denied');
+
     }
-
-
-    console.log('[CONSENT] Beauty Bookend Google Analytics disabled');
 
   }
 
@@ -223,7 +273,140 @@
 
 
 <!-- ============================================================
-     4. SILKTIDE CONFIGURATION
+     4. CLOUDFLARE COUNTRY DETECTION
+     ============================================================ -->
+
+<script>
+
+  /*
+   * Beauty Bookend country-detection Worker.
+   *
+   * The Worker should return JSON similar to:
+   *
+   * {
+   *   "country": "CA"
+   * }
+   */
+  async function getVisitorCountry() {
+
+    try {
+
+      const response = await fetch(
+        "https://beautybookend-country.margaret-cams27.workers.dev/",
+        {
+          method: "GET",
+          cache: "no-store"
+        }
+      );
+
+
+      if (!response.ok) {
+
+        throw new Error(
+          "Country lookup returned HTTP " + response.status
+        );
+
+      }
+
+
+      const data = await response.json();
+
+
+      if (
+        !data ||
+        typeof data.country !== "string" ||
+        data.country.length !== 2
+      ) {
+
+        throw new Error("Invalid country response");
+
+      }
+
+
+      return data.country.toUpperCase();
+
+
+    } catch (error) {
+
+      console.warn(
+        "[CONSENT] Country detection failed. Requiring consent.",
+        error
+      );
+
+
+      /*
+       * IMPORTANT:
+       *
+       * Unknown country FAILS CLOSED.
+       *
+       * XX is treated as requiring consent.
+       */
+      return "XX";
+
+    }
+
+  }
+
+
+  /*
+   * Countries/regions where Beauty Bookend will require
+   * explicit Analytics consent.
+   */
+  function requiresAnalyticsConsent(country) {
+
+    const consentRequiredCountries = [
+
+      /*
+       * Canada
+       */
+      'CA',
+
+
+      /*
+       * European Union
+       */
+      'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE',
+      'GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT',
+      'RO','SK','SI','ES','SE',
+
+
+      /*
+       * Additional EEA countries
+       */
+      'IS','LI','NO',
+
+
+      /*
+       * United Kingdom
+       */
+      'GB',
+
+
+      /*
+       * Switzerland - handled conservatively
+       */
+      'CH'
+
+    ];
+
+
+    /*
+     * Unknown country also requires consent.
+     */
+    if (country === 'XX') {
+      return true;
+    }
+
+
+    return consentRequiredCountries.includes(country);
+
+  }
+
+</script>
+
+
+<!-- ============================================================
+     5. SILKTIDE CONFIGURATION
      ============================================================ -->
 
 <script>
@@ -236,15 +419,9 @@
 
 
     /*
-     * IMPORTANT:
+     * Keep v2 unchanged.
      *
-     * "v2" creates a new consent-storage version.
-     *
-     * This makes the FULL banner appear once for visitors after
-     * this update, even if they made a choice under the old setup.
-     *
-     * After they make a v2 choice, future visits show only the
-     * small cookie/preferences icon.
+     * Visitors who already made a choice under v2 retain it.
      */
     bannerSuffix: "v2",
 
@@ -274,16 +451,24 @@
         defaultValue: false,
 
 
+        /*
+         * These callbacks are important.
+         *
+         * Silktide calls them both when:
+         *
+         * 1. the visitor makes a new choice, and
+         * 2. an existing saved preference is restored.
+         */
         onAccept: function () {
 
-          loadGoogleAnalytics();
+          setAnalyticsConsent(true);
 
         },
 
 
         onReject: function () {
 
-          disableGoogleAnalytics();
+          setAnalyticsConsent(false);
 
         }
 
@@ -297,7 +482,7 @@
       banner: {
 
         description:
-          "<p>Beauty Bookend uses necessary technologies to operate the website. With your permission, we also use Google Analytics to understand how visitors use the site. Analytics is optional and is disabled unless you choose to allow it.</p>",
+          "<p>Beauty Bookend uses necessary technologies to operate the website. With your permission, we also use Google Analytics to understand how visitors use the site. Analytics is optional.</p>",
 
         acceptAllButtonText:
           "Accept all",
@@ -317,7 +502,7 @@
           "Cookie preferences",
 
         description:
-          "<p>You can choose whether Beauty Bookend may use optional analytics technologies. Necessary technologies are required for the website and to remember your privacy preferences.</p>"
+          "<p>You can choose whether Beauty Bookend may use optional analytics technologies. Necessary technologies are required for website operation and to remember your privacy preferences.</p>"
 
       }
 
@@ -329,46 +514,87 @@
 
 
 <!-- ============================================================
-     5. LOAD SILKTIDE
-     
-     defer ensures document.body exists before Silktide creates
-     the banner and cookie-preferences interface.
-     ============================================================ -->
-
-<script
-  defer
-  src="{{ '/Silktide/silktide-consent-manager.js' | relative_url }}">
-</script>
-
-
-<!-- ============================================================
-     6. LISTEN FOR CONSENT CHANGES
+     6. REGIONAL BOOTSTRAP
      ============================================================ -->
 
 <script>
 
-  document.addEventListener(
-    'silktideCookieBannerManager:consentChanged',
+  (async function bootstrapConsent() {
 
-    function (event) {
-
-      const consent = event.detail || {};
+    const country =
+      await getVisitorCountry();
 
 
-      if (consent.analytics === true) {
+    const consentRequired =
+      requiresAnalyticsConsent(country);
 
-        loadGoogleAnalytics();
 
-      } else {
+    console.log(
+      '[CONSENT] Visitor country:',
+      country
+    );
 
-        disableGoogleAnalytics();
 
-      }
+    console.log(
+      '[CONSENT] Explicit consent required:',
+      consentRequired
+    );
+
+
+    /*
+     * ----------------------------------------------------------
+     * CONSENT-REQUIRED REGION
+     * ----------------------------------------------------------
+     *
+     * Load Silktide.
+     *
+     * First visit:
+     *   Full banner appears.
+     *
+     * Returning visitor:
+     *   Saved Analytics preference is restored and the small
+     *   preferences icon is shown.
+     */
+    if (consentRequired) {
+
+      const silktideScript =
+        document.createElement('script');
+
+
+      silktideScript.src =
+        "{{ '/Silktide/silktide-consent-manager.js' | relative_url }}";
+
+
+      silktideScript.defer = true;
+
+
+      document.head.appendChild(
+        silktideScript
+      );
+
+
+    /*
+     * ----------------------------------------------------------
+     * OTHER REGIONS
+     * ----------------------------------------------------------
+     *
+     * Analytics is enabled automatically.
+     *
+     * Advertising remains denied.
+     *
+     * Silktide is not loaded, so no cookie icon/banner is
+     * displayed.
+     */
+    } else {
+
+      setAnalyticsConsent(true);
 
     }
-  );
+
+  })();
 
 </script>
+
 
 <!-- SILKTIDE CONSENT MANAGER - END -->
 
