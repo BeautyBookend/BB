@@ -687,3 +687,10 @@
   font-weight: 900;
 }
 
+.accept-all .st-button .st-button--primary {
+ background-color: #dea8b8 !important;
+ min-height: 96px !important;
+ min-width: 48px !important; 
+ font-weight: 900; 
+} 
+
