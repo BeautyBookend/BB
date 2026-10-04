@@ -628,15 +628,13 @@
 /* Preferences Page */
 
 /* Force black text on all Silktide buttons */
-#silktide-wrapper .st-button,
-#silktide-wrapper .st-button--primary,
-#silktide-wrapper .st-button--secondary {
+#silktide-wrapper .preferences-accept-all.st-button .st-button--primary {
   color: #000000 !important;
   font-size: 18px;
   font-weight: 400;
   height: 75px;
   width: 200px;
-  background-color: #dea8b8 !important;
+  background-color: #f5eaed !important;
 }
 
 /* Keep Accept All bold when hovered/focused/clicked */
