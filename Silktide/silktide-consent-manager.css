@@ -102,8 +102,22 @@
   width: 200px;
 }
 
-#silktide-wrapper .st-button--primary:hover,
-#silktide-wrapper .st-button--primary:focus,
+#silktide-wrapper .st-button--primary:hover {
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
+}
+
+#silktide-wrapper .st-button--primary:focus {
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
+}
+  
 #silktide-wrapper .st-button--primary:active {
   color: #000000;
   background-color: #dea8b8;
@@ -120,8 +134,22 @@
   width: 200px;
 }
 
-#silktide-wrapper .st-button--secondary:hover,
-#silktide-wrapper .st-button--secondary:focus,
+#silktide-wrapper .st-button--secondary:hover {
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
+}
+
+#silktide-wrapper .st-button--secondary:focus {
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
+}
+  
 #silktide-wrapper .st-button--secondary:active {
   color: #000000;
   background-color: #dea8b8;
