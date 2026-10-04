@@ -687,10 +687,27 @@
   font-weight: 900;
 }
 
-.accept-all .st-button .st-button--primary {
- background-color: #dea8b8 !important;
- min-height: 96px !important;
- min-width: 48px !important; 
- font-weight: 900; 
-} 
+#silktide-banner .accept-all.st-button--primary {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 200px;
+  height: 75px;
+}
+
+#silktide-banner .reject-all.st-button {
+  color: #000000 !important;
+  background-color: #f5eaed !important;
+  width: 200px;
+  height: 75px;
+  font-weight: 300;
+
+#silktide-banner .st-button--secondary:hover,
+#silktide-banner .st-button--secondary:focus,
+#silktide-banner .st-button--secondary:active {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 200px;
+  height: 75px;
+}  
+
 
