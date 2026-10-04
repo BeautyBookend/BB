@@ -726,7 +726,7 @@
   height: 75px;
 }  
 
-#silktide-banner .preferences-accept-all.st-button--primary {
+button.preferences-accept-all.st-button--primary {
   color: #000000 !important;
   background-color: #f5eaed !important;
   width: 200px;
@@ -734,7 +734,7 @@
   font-weight: 200;
 }  
 
-#silktide-banner .preferences-reject-all.st-button {
+button.preferences-reject-all.st-button {
   color: #000000 !important;
   background-color: #f5eaed !important;
   width: 200px;
