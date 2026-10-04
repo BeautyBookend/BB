@@ -102,7 +102,10 @@
   width: 200px;
 }
 
-#silktide-wrapper .st-button--primary:hover {
+#silktide-wrapper .st-button--primary:hover,
+#silktide-wrapper .st-button--primary:focus,
+#silktide-wrapper .st-button--primary:active,
+{
   color: #000000;
   background-color: #dea8b8;
   font-weight: 900;
@@ -118,7 +121,9 @@
   width: 200px;
 }
 
-#silktide-wrapper .st-button--secondary:hover {
+#silktide-wrapper .st-button--secondary:hover,
+#silktide-wrapper .st-button--secondary:focus,
+#silktide-wrapper .st-button--secondary:active {
   color: #000000;
   background-color: #dea8b8;
   font-weight: 900;
