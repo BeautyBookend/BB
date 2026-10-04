@@ -576,19 +576,126 @@
   font-size: 18px;
   font-weight: 900;
 }
-#silktide-wrapper .st-button:hover,
-#silktide-wrapper .st-button--primary:hover,
-#silktide-wrapper .st-button--secondary:hover {
+
+/* -------------------------------------------------
+   Custom Silktide button styling
+   ------------------------------------------------- */
+
+/* Base style for banner action buttons */
+#silktide-banner .st-button {
   color: #000000 !important;
   font-size: 18px;
+  min-height: 48px;
+  box-sizing: border-box;
+}
+
+/* Make Accept All and Reject non-essential equal width */
+#silktide-banner .actions-row .st-button--primary,
+#silktide-banner .actions-row .st-button--secondary {
+  flex: 1 1 0;
+  width: 0;
+  white-space: nowrap;
+}
+
+/* ACCEPT ALL - bold all the time */
+#silktide-banner .st-button--primary {
+  font-weight: 900;
+}
+
+/* Keep Accept All bold when hovered/focused/clicked */
+#silktide-banner .st-button--primary:hover,
+#silktide-banner .st-button--primary:focus,
+#silktide-banner .st-button--primary:active {
+  color: #000000 !important;
+  font-weight: 900;
+}
+
+/* REJECT NON-ESSENTIAL - normal weight initially */
+#silktide-banner .st-button--secondary {
+  font-weight: 400;
+}
+
+/* Make Reject non-essential bold only when
+   hovered, keyboard-focused, or clicked */
+#silktide-banner .st-button--secondary:hover,
+#silktide-banner .st-button--secondary:focus,
+#silktide-banner .st-button--secondary:active {
+  color: #000000 !important;
   font-weight: 900;
   background-color: #dea8b8;
 }
+
+/* -------------------------------------------------
+   Custom Silktide button styling
+   ------------------------------------------------- */
+
+/* Base style for banner action buttons */
+#silktide-banner .st-button {
+  color: #000000 !important;
+  font-size: 18px;
+  min-height: 48px;
+  box-sizing: border-box;
+}
+
+/* Make Accept All and Reject non-essential equal width */
+#silktide-banner .actions-row .st-button--primary,
+#silktide-banner .actions-row .st-button--secondary {
+  flex: 1 1 0;
+  width: 0;
+  white-space: nowrap;
+}
+
+/* ACCEPT ALL - bold all the time */
+#silktide-banner .st-button--primary {
+  font-weight: 900;
+}
+
+/* Keep Accept All bold when hovered/focused/clicked */
+#silktide-banner .st-button--primary:hover,
+#silktide-banner .st-button--primary:focus,
+#silktide-banner .st-button--primary:active {
+  color: #000000 !important;
+  font-weight: 900;
+}
+
+/* REJECT NON-ESSENTIAL - normal weight initially */
+#silktide-banner .st-button--secondary {
+  font-weight: 400;
+}
+
+/* Make Reject non-essential bold only when
+   hovered, keyboard-focused, or clicked */
+#silktide-banner .st-button--secondary:hover,
+#silktide-banner .st-button--secondary:focus,
+#silktide-banner .st-button--secondary:active {
+  color: #000000 !important;
+  font-weight: 900;
+  background-color: #dea8b8;
+}
+
+/* Keep the modal buttons readable without forcing
+   the same banner styling onto them */
+#silktide-modal .st-button {
+  color: #000000 !important;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* Keep ON / OFF switch labels bold */
+#silktide-modal .switch input:checked ~ .switch__on {
+  color: black;
+  font-weight: 900;
+}
+
+#silktide-modal .switch input:checked ~ .switch__off {
+  font-weight: 900;
+}
+
 #silktide-modal .switch input:checked ~ .switch__on {
   color: black;
   font-weight: 900;
 }
 #silktide-modal .switch input:checked ~ .switch__off {
-  font-weight: 900;
+  font-weight: 400;
 }
 
