@@ -726,7 +726,7 @@
   height: 75px;
 }  
 
-#silktide-wrapper .st-button, #silktide-wrapper .st-button--primary, #silktide-wrapper .st-button--secondary {
+#silktide-wrapper .st-button {
   color: #000000 !important;
   background-color: #f5eaed !important;
   width: 200px;
