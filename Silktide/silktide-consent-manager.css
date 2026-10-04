@@ -688,6 +688,22 @@
 }
 
 #silktide-banner .accept-all.st-button--primary {
+  font-weight: 200;
+  background-color: #dea8b8 !important;
+  width: 200px;
+  height: 75px;
+}
+
+#silktide-banner .accept-all.st-button--primary:hover,
+#silktide-banner .accept-all.st-button--primary:focus,
+#silktide-banner .accept-all.st-button--primary:active {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 200px;
+  height: 75px;
+}  
+
+#silktide-banner .accept-all.st-button--primary {
   font-weight: 900;
   background-color: #dea8b8 !important;
   width: 200px;
@@ -699,11 +715,11 @@
   background-color: #f5eaed !important;
   width: 200px;
   height: 75px;
-  font-weight: 300;
+  font-weight: 200;
 
-#silktide-banner .st-button--secondary:hover,
-#silktide-banner .st-button--secondary:focus,
-#silktide-banner .st-button--secondary:active {
+#silktide-banner .reject-all.st-button:hover,
+#silktide-banner .reject-all.st-button:focus,
+#silktide-banner .reject-all.st-button:active {
   font-weight: 900;
   background-color: #dea8b8 !important;
   width: 200px;
