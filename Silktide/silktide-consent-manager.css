@@ -104,8 +104,7 @@
 
 #silktide-wrapper .st-button--primary:hover,
 #silktide-wrapper .st-button--primary:focus,
-#silktide-wrapper .st-button--primary:active,
-{
+#silktide-wrapper .st-button--primary:active {
   color: #000000;
   background-color: #dea8b8;
   font-weight: 900;
