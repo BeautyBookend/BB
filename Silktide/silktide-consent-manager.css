@@ -95,21 +95,35 @@
 }
 
 #silktide-wrapper .st-button--primary {
+  color: #000000;
+  background-color: #F5EAED;
+  font-weight: 300;
+  height: 75px;
+  width: 200px;
 }
 
 #silktide-wrapper .st-button--primary:hover {
-  background-color: var(--backgroundColor);
-  color: var(--primaryColor);
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
 }
 
 #silktide-wrapper .st-button--secondary {
-  background-color: var(--backgroundColor);
-  color: var(--primaryColor);
+  color: #000000;
+  background-color: #F5EAED;
+  font-weight: 300;
+  height: 75px;
+  width: 200px;
 }
 
 #silktide-wrapper .st-button--secondary:hover {
-  background-color: var(--primaryColor);
-  color: var(--backgroundColor);
+  color: #000000;
+  background-color: #dea8b8;
+  font-weight: 900;
+  height: 75px;
+  width: 200px;
 }
 
 /* --------------------------------
