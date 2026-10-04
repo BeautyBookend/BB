@@ -574,8 +574,10 @@
 #silktide-wrapper .st-button--secondary {
   color: #000000 !important;
   font-size: 18px;
-  font-weight: 900;
-  background-color: #ffffff !important;
+  font-weight: 200;
+  height: 75px;
+  width: 200px;
+  background-color: #f5eaed !important;
 }
 
 /* -------------------------------------------------
@@ -586,9 +588,10 @@
 #silktide-banner .st-button {
   color: #000000 !important;
   font-size: 18px;
-  min-height: 48px;
+  height: 75px;
+  width: 200px;
   box-sizing: border-box;
-  background-color: #ffffff !important;
+  background-color: #f5eaed !important;
 }
 
 /* Make Accept All and Reject non-essential equal width */
@@ -601,7 +604,7 @@
 
 /* ACCEPT ALL - bold all the time */
 #silktide-banner .st-button--primary {
-  font-weight: 900;
+  font-weight: 200;
 }
 
 /* Keep Accept All bold when hovered/focused/clicked */
@@ -610,7 +613,9 @@
 #silktide-banner .st-button--primary:active {
   color: #000000 !important;
   font-weight: 900;
-  background-color: #ffffff !important;
+  height: 75px;
+  width: 200px;
+  background-color: #dea8b8 !important;
 }
 
 /* REJECT NON-ESSENTIAL - normal weight initially */
