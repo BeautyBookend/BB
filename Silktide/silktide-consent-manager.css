@@ -726,7 +726,7 @@
   height: 75px;
 }  
 
-button.preferences-accept-all.st-button--primary {
+#silktide-wrapper .preferences-accept-all.st-button {
   color: #000000 !important;
   background-color: #f5eaed !important;
   width: 200px;
@@ -734,7 +734,7 @@ button.preferences-accept-all.st-button--primary {
   font-weight: 200;
 }  
 
-button.preferences-reject-all.st-button {
+#silktide-wrapper .preferences-reject-all.st-button {
   color: #000000 !important;
   background-color: #f5eaed !important;
   width: 200px;
