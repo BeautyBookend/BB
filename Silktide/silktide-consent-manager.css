@@ -726,13 +726,25 @@
   height: 75px;
 }  
 
-#silktide-wrapper .st-button {
-  color: #000000 !important;
-  background-color: #ffffff !important;
-  width: 200px;
-  height: 75px;
-  font-weight: 200;
-}  
+/* Preferences - Accept All */
+#silktide-wrapper #silktide-modal .preferences-accept-all {
+  font-weight: 900 !important;
+  background-color: #ffffff;
+}
+
+/* Preferences - Reject non-essential */
+#silktide-wrapper #silktide-modal .preferences-reject-all {
+  font-weight: 400 !important;
+  background-color: #ffffff;
+}
+
+/* Reject becomes bold when hovered/focused/clicked */
+#silktide-wrapper #silktide-modal .preferences-reject-all:hover,
+#silktide-wrapper #silktide-modal .preferences-reject-all:focus,
+#silktide-wrapper #silktide-modal .preferences-reject-all:active {
+  font-weight: 900 !important;
+  background-color: #ffffff;
+}
 
 
   
