@@ -581,9 +581,15 @@
 }
 
 /* Keep Accept All bold when hovered/focused/clicked */
-#silktide-wrapper .st-button, #silktide-wrapper .st-button--primary, #silktide-wrapper .st-button--secondary:hover,
-#silktide-wrapper .st-button, #silktide-wrapper .st-button--primary, #silktide-wrapper .st-button--secondary:focus,
-#silktide-wrapper .st-button, #silktide-wrapper .st-button--primary, #silktide-wrapper .st-button--secondary:active {
+#silktide-wrapper .st-button, 
+#silktide-wrapper .st-button--primary, 
+#silktide-wrapper .st-button--secondary:hover,
+#silktide-wrapper .st-button, 
+#silktide-wrapper .st-button--primary, 
+#silktide-wrapper .st-button--secondary:focus,
+#silktide-wrapper .st-button, 
+#silktide-wrapper .st-button--primary, 
+#silktide-wrapper .st-button--secondary:active {
   color: #000000 !important;
   font-weight: 900;
   height: 75px;
@@ -745,25 +751,6 @@
   height: 75px;
 }  
 
-/* Preferences - Accept All */
-#silktide-wrapper #silktide-modal .preferences-accept-all {
-  font-weight: 900 !important;
-  background-color: #ffffff;
-}
-
-/* Preferences - Reject non-essential */
-#silktide-wrapper #silktide-modal .preferences-reject-all {
-  font-weight: 400 !important;
-  background-color: #ffffff;
-}
-
-/* Reject becomes bold when hovered/focused/clicked */
-#silktide-wrapper #silktide-modal .preferences-reject-all:hover,
-#silktide-wrapper #silktide-modal .preferences-reject-all:focus,
-#silktide-wrapper #silktide-modal .preferences-reject-all:active {
-  font-weight: 900 !important;
-  background-color: #ffffff;
-}
 
 
   
