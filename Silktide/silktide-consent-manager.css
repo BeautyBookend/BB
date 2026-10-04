@@ -616,7 +616,7 @@
 
 
 
-/* Keep ON / OFF switch labels bold */
+/* Keep ON and OFF switch labels bold */
 
 #silktide-modal .switch input:checked ~ .switch__on {
   color: black;
