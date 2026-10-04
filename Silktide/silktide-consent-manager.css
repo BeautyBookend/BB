@@ -622,7 +622,7 @@
 #silktide-banner .st-button--secondary:active {
   color: #000000 !important;
   font-weight: 900;
-  background-color: #dea8b8;
+  background-color: #faf5f6;
 }
 
 /* -------------------------------------------------
@@ -634,6 +634,7 @@
   color: #000000 !important;
   font-size: 18px;
   min-height: 48px;
+  min-width: 96px;
   box-sizing: border-box;
 }
 
@@ -655,12 +656,15 @@
 #silktide-banner .st-button--primary:focus,
 #silktide-banner .st-button--primary:active {
   color: #000000 !important;
+  font-size: 18px;
   font-weight: 900;
+  background-color: #dea8b8;
 }
 
 /* REJECT NON-ESSENTIAL - normal weight initially */
 #silktide-banner .st-button--secondary {
-  font-weight: 400;
+  font-weight: 300;
+  background: 
 }
 
 /* Make Reject non-essential bold only when
@@ -673,29 +677,13 @@
   background-color: #dea8b8;
 }
 
-/* Keep the modal buttons readable without forcing
-   the same banner styling onto them */
-#silktide-modal .st-button {
-  color: #000000 !important;
-  font-size: 18px;
-  font-weight: 900;
-}
-
 /* Keep ON / OFF switch labels bold */
-#silktide-modal .switch input:checked ~ .switch__on {
-  color: black;
-  font-weight: 900;
-}
-
-#silktide-modal .switch input:checked ~ .switch__off {
-  font-weight: 900;
-}
 
 #silktide-modal .switch input:checked ~ .switch__on {
   color: black;
   font-weight: 900;
 }
 #silktide-modal .switch input:checked ~ .switch__off {
-  font-weight: 400;
+  font-weight: 900;
 }
 
