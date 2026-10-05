@@ -1877,4 +1877,12 @@ body img {
 .AutoCat img {border: 2px solid #000 !important;}
 .DevOpsCat img {border: 2px solid #000 !important;}	
 	
+/* Fix image text overlapping layout bug */
+article img, .post img, p img, .post-content img {
+  display: block !important;
+  margin: 0 auto 24px auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  clear: both !important;
+}
 
