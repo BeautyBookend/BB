@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://beautybookend.github.io/BB/sitemap.xml
+Sitemap: https://beautybookend.pages.dev/sitemap.xml
 
