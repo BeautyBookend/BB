@@ -700,4 +700,21 @@
   height: 75px;
 }
 
+/* SILKTIDE LOGO LINK - START */
+#silktide-modal footer .silktide-logo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  fill: var(--primaryColor);
+  text-decoration: none;
+}
+
+#silktide-modal footer .silktide-logo:hover {
+  fill: var(--textColor);
+}
+/* SILKTIDE LOGO LINK - END */
+
 
