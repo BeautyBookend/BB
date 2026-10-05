@@ -680,4 +680,24 @@
   height: 75px;
 }
 
+#silktide-banner .st-button--secondary:not(:hover) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 200px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--secondary:not(:focus) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 200px;
+  height: 75px;
+}
+#silktide-banner .st-button--secondary:not(:active) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 200px;
+  height: 75px;
+}
+
 
