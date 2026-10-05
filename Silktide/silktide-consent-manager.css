@@ -700,6 +700,84 @@
   height: 75px;
 }
 
+@media only screen and (max-width: 780px) {
+
+  #silktide-banner .st-button--primary {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--primary:hover {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--primary:focus {
+ font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+}
+#silktide-banner .st-button--primary:active {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+} 
+
+#silktide-banner .st-button--secondary {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--secondary:hover {
+  font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--secondary:focus {
+    font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+}
+#silktide-banner .st-button--secondary:active {
+    font-weight: 900;
+  background-color: #dea8b8 !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--secondary:not(:hover) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 325px;
+  height: 75px;
+}
+
+#silktide-banner .st-button--secondary:not(:focus) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 325px;
+  height: 75px;
+}
+#silktide-banner .st-button--secondary:not(:active) {
+  font-weight: 300;
+  background-color: #f5eaed !important;
+  width: 325px;
+  height: 75px;
+}
+
+} /* Mobile End */  
+
 /* SILKTIDE LOGO LINK - START */
 #silktide-modal footer .silktide-logo {
   margin-left: auto;
