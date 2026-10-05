@@ -94,72 +94,6 @@
   border-radius: 5px;
 }
 
-#silktide-wrapper .st-button--primary {
-  color: #000000;
-  background-color: #F5EAED;
-  font-weight: 300;
-  height: 75px;
-  width: 200px;
-}
-
-#silktide-wrapper .st-button--primary:hover {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-
-#silktide-wrapper .st-button--primary:focus {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-  
-#silktide-wrapper .st-button--primary:active {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-
-#silktide-wrapper .st-button--secondary {
-  color: #000000;
-  background-color: #F5EAED;
-  font-weight: 300;
-  height: 75px;
-  width: 200px;
-}
-
-#silktide-wrapper .st-button--secondary:hover {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-
-#silktide-wrapper .st-button--secondary:focus {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-  
-#silktide-wrapper .st-button--secondary:active {
-  color: #000000;
-  background-color: #dea8b8;
-  font-weight: 900;
-  height: 75px;
-  width: 200px;
-}
-
-@media only screen and (max-width: 780px) {
-
   #silktide-wrapper .st-button--primary {
   color: #000000;
   background-color: #F5EAED;
@@ -222,9 +156,7 @@
   font-weight: 900;
   height: 75px;
   width: 350px;
-}  
-
-} /* Mobile End  */  
+}   
 
 /* --------------------------------
   Banner
@@ -773,74 +705,74 @@
   #silktide-banner .st-button--primary {
   font-weight: 300;
   background-color: #f5eaed !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--primary:hover {
   font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+   width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--primary:focus {
  font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+   width: 317px;
   height: 75px;
 }
 #silktide-banner .st-button--primary:active {
   font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+   width: 317px;
   height: 75px;
 } 
 
 #silktide-banner .st-button--secondary {
   font-weight: 300;
   background-color: #f5eaed !important;
-  width: 325px;
+   width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--secondary:hover {
   font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--secondary:focus {
     font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 #silktide-banner .st-button--secondary:active {
     font-weight: 900;
   background-color: #dea8b8 !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--secondary:not(:hover) {
   font-weight: 300;
   background-color: #f5eaed !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 
 #silktide-banner .st-button--secondary:not(:focus) {
   font-weight: 300;
   background-color: #f5eaed !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 #silktide-banner .st-button--secondary:not(:active) {
   font-weight: 300;
   background-color: #f5eaed !important;
-  width: 325px;
+  width: 317px;
   height: 75px;
 }
 
