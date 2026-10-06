@@ -12,8 +12,7 @@ permalink: /skin-care/
 
 <br /><br />
 
-<div class="category-card" style="background-color: #ffffff; border: 1px solid #000000; width: 1025px; margin: 0 auto 40px auto; padding: 32px; box-sizing: border-box; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 32px; flex-wrap: wrap;">
-  
+<div class="category-card" style="background-color: #faf5f6; border: 1px solid #000000; padding: 32px; box-sizing: border-box; display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; flex: 1 0 100%;">  
   <!-- Left Side: Centered Image -->
   <figure style="margin: 0; max-width: 380px; width: 100%; flex: 1; min-width: 280px; display: flex; flex-direction: column; align-items: center;">
     <img src="{{ '/assets/images/skin-care-category.webp' | relative_url }}" alt="Skin Care Category" style="width: 100%; height: auto; display: block; border: 1px solid #000000;" />
@@ -39,30 +38,14 @@ permalink: /skin-care/
 
 </div>
 
-
 <style>
-  @media only screen and (min-width: 820px) and (max-width: 1920px) {
-    .cat-header {
-      display: flex;
-      align-items: center; /* Align items vertically */
-      gap: 70px; /* Space between image and text */
-      padding: 20px;
-      background: #faf5f6;
-      width: 1025px;
-      margin-top: -60px;
-    }
-
-    .cat-header img {
-      margin-top: 140px;
-      min-height: 250px;
-      min-width: 350px;
-    } 
+  @media only screen and (min-width: 820px) and (max-width: 1920px) { 
+   .category-card {
+    width: 100vw; 
+    max-width: 1025px; 
+    margin: 0 auto 40px auto; 
+   }
     
-    .cat-desc {
-      font-size: 1.2em;
-      line-height: 1.5;
-      max-width: 600px; /* Optional: limits width of text */
-    }
 
     .breadcrumbs {
       margin-top: -45px;
@@ -73,39 +56,16 @@ permalink: /skin-care/
       margin-bottom: 10px;
       margin-left: -50px;
     }
-
-    
-  /* Bulletproof text wrap layout fix */
-  .post-content img, article img, .page-content img, p img, img {
-    display: block !important;
-    margin: 0 auto 24px auto !important;
-    clear: both !important;
-    float: none !important;
-  }
-
     
   }  /* End Desktop */
 
   @media only screen and (max-width: 780px) {
-     .cat-header {
-      display: block;
-      align-items: center; 
-      padding: 20px;
+     .category-card {
       background: #faf5f6;
-      margin-top: -15px;
-    }
-    .cat-header img {
-      margin-left: -40px;
-    } 
-    figcaption {
-      margin-left: -35px;
-    } 
-    
-    .cat-desc {
-      font-size: 1.2em;
-      line-height: 1.5;
+      margin-top: 25px !important;
+      margin-left: 0px; 
+      width: 100vw; 
       max-width: 380px; 
-      margin-left: -10px;
     }
 
     .wrapper-masthead {
@@ -113,7 +73,7 @@ permalink: /skin-care/
     }
 
     .breadcrumbs {
-      margin-top: -120px;
+      margin-top: 40px;
       background: #f5eaed
     } 
 
@@ -126,7 +86,25 @@ permalink: /skin-care/
   } /* End Mobile */
 </style>
 
-<h2 class="post-title" style="font-size: 40px; line-height: 20px; text-align: center;">Showing posts for:</h2>
+<style>
+  /* Optimize category card typography specifically for mobile phones */
+  @media (max-width: 767px) {
+    .category-card {
+      padding: 20px !important; /* Shrings the box padding so you have more screen space */
+      width: max-width: 380px !important;
+    }
+    .category-card h1 {
+      font-size: 1.8em !important; /* Shrinks the heading size so it doesn't wrap into 3 lines */
+      margin-bottom: 12px !important;
+    }
+    .category-card p {
+      font-size: 14px !important; /* Makes paragraph text slightly crisper to read on mobile layout */
+      line-height: 1.5 !important;
+    }
+  }
+</style>
+
+<h2 class="post-title" style="font-size: 40px; text-align: center;">Showing posts for:</h2>
 <h2 class="post-label" style="font-size: 35px; line-height: 10px; text-align: center;">Skin Care</h2>
 <br/>
 
