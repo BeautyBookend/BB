@@ -26,11 +26,13 @@
 	
 
   <!-- Canonical -->
-  {% if page.url == "/" %}
-    <link rel="canonical" href="https://beautybookend.pages.dev/">
-  {% else %}
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
-  {% endif %}
+  <!-- Fixed Absolute Cloudflare Canonical Link -->
+{% if page.url == "/" %}
+  <link rel="canonical" href="https://beautybookend.pages.dev/">
+{% else %}
+  <link rel="canonical" href="https://beautybookend.pages.dev/{{ page.url }}">
+{% endif %}
+
 
   
 
