@@ -8,14 +8,17 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" media="print" onload="this.media='all'">
 
-<!-- Redirect the GitHub Pages to Cloudflare Pages -->
+<!-- Redirect GitHub Pages to Cloudflare Pages Safely -->
 <script type="text/javascript">
   var host = window.location.hostname;
-  if (host.includes("github.io")) {
+  var path = window.location.pathname;
+  // Only redirect if the visitor is on github.io AND not fetching an asset folder
+  if (host.includes("github.io") && !path.includes("/assets/")) {
     var newURL = window.location.href.replace("beautybookend.github.io/BB", "beautybookend.pages.dev");
     window.location.replace(newURL);
   }
 </script>
+
 
 
 
