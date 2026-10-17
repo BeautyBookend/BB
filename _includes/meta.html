@@ -3,14 +3,18 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% if page.url == "/" %}
+      {% assign seo_description = site.description %}
+    {% elsif page.description %}
+      {% assign seo_description = page.description %}
+    {% elsif page.excerpt %}
+      {% assign seo_description = page.excerpt | strip_html | normalize_whitespace | truncate: 155 %}
     {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
+      {% assign seo_description = site.description %}
     {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+    
+    <meta name="description" content="{{ seo_description | escape }}">
+    <meta property="og:description" content="{{ seo_description | escape }}">
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
