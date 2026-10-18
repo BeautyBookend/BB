@@ -18,7 +18,7 @@ Retinol has long been considered the gold standard for reducing fine lines, impr
 
 That’s where **bakuchiol** comes in.
 
-Often called a “natural retinol alternative,” bakuchiol has gained popularity for offering similar anti-aging benefits — without the harsh side effects. But does the science actually support that claim?
+Often called a “natural retinol alternative,” bakuchiol has gained popularity for offering similar anti-aging benefits — without the harsh side effects. But does the science support that claim?
 
 Let’s break it down in a clear, practical way.
 
