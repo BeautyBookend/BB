@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "The Complete Beginner's Guide To Skincare"
+title: "The Complete Beginner Guide To Skincare"
 categories: ["Skin Care"]
 image: "/assets/images/Skin/complete-beginner-guide-to-skincare.webp"
 tags: [skincare, skin care,face cream, moisturizer]
-description: "A simple, practical guide to building a skincare routine from scratch — learn how to identify your skin type, choose the right products, and create healthy habits for glowing skin"
+description: "A simple, practical guide to building a skincare routine from scratch. Learn how to identify the right products for healthy glowing skin"
 ---
 
 <figure>
