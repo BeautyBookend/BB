@@ -15,6 +15,7 @@
   // Only redirect if the visitor is on github.io AND not fetching an asset folder
   if (host.includes("github.io") && !path.includes("/assets/")) {
     var newURL = window.location.href.replace("beautybookend.github.io/BB", "beautybookend.pages.dev");
+    var newURL = window.location.href.replace("beautyblurbs.com", "beautybookend.pages.dev");
     window.location.replace(newURL);
   }
 </script>
