@@ -15,14 +15,14 @@ permalink: /privacy/
 
 <h1>Privacy Policy</h1>
 
-<p><strong>Last updated: October 3, 2026</strong></p>
+<p><strong>Last updated: October 19, 2026</strong></p>
 
 <br /><br />
 
 <p>
 Welcome to <strong>Beauty Bookend</strong>, located at
-<a href="https://beautybookend.github.io/BB/">
-https://beautybookend.github.io/BB/
+<a href="https://beautybookend.pages.dev/">
+https://beautybookend.pages.dev/
 </a> (the "Site").
 </p>
 
@@ -34,10 +34,13 @@ and the privacy choices that may be available to you.
 </p>
 
 <p>
-Beauty Bookend is primarily a static website hosted using GitHub Pages.
-We do not operate user accounts or maintain our own customer database.
-However, technical information may be processed by third-party services used
-to host, secure, analyze, and operate the Site.
+Beauty Bookend is primarily a static website hosted using
+Cloudflare Pages. A legacy version of the website may remain
+accessible through GitHub Pages for redirection purposes.
+We do not operate user accounts or maintain our own customer
+database. However, technical information may be processed
+by third-party services used to host, secure, analyze,
+and operate the Site.
 </p>
 
 
@@ -102,7 +105,7 @@ include:
 </ul>
 
 
-<h2>3. GitHub Pages Hosting</h2>
+<h2>3. Website Hosting</h2>
 
 <p>
 Beauty Bookend is hosted using <strong>GitHub Pages</strong>, a service
@@ -266,6 +269,74 @@ identifying individual visitors.
 </p>
 
 
+<h2>7A. Microsoft Clarity</h2>
+
+<p>
+Beauty Bookend uses <strong>Microsoft Clarity</strong>, a website
+analytics service provided by Microsoft, to better understand how
+visitors interact with the Site and to improve its content,
+navigation, and usability.
+</p>
+
+<p>
+Microsoft Clarity provides features such as heatmaps and session
+recordings. Heatmaps help us understand where visitors click and
+how far they scroll. Session recordings allow us to review how
+visitors navigate and interact with the Site.
+</p>
+
+<p>
+Depending on the features used, Microsoft Clarity may process
+information such as pages visited, clicks, scrolling activity,
+mouse movements, device and browser information, approximate
+location, referring pages, and technical information associated
+with a visit, including IP addresses.
+</p>
+
+<p>
+Beauty Bookend does not use Microsoft Clarity for the purpose
+of personally identifying individual visitors. Clarity offers
+masking features intended to limit the exposure of sensitive
+information in session recordings.
+</p>
+
+<p>
+For visitors in regions where Beauty Bookend requires
+Analytics consent, Microsoft Clarity is not loaded unless
+the visitor accepts optional Analytics through the
+Silktide Consent Manager.
+</p>
+
+<p>
+If a visitor subsequently withdraws Analytics consent,
+Beauty Bookend's consent configuration is designed to
+disable further Clarity collection by reloading the page
+with the rejected preference applied.
+</p>
+
+<p>
+For visitors in regions where the Site's current
+configuration enables Analytics automatically,
+Microsoft Clarity may also be enabled automatically.
+</p>
+
+<p>
+Microsoft may process Analytics information according
+to its own privacy practices and applicable policies.
+Clarity data is retained according to Microsoft's
+retention policies and the settings available for the
+Clarity project.
+</p>
+
+<p>
+For more information, please review
+<a href="https://privacy.microsoft.com/en-us/privacystatement"
+target="_blank" rel="noopener noreferrer">
+Microsoft's Privacy Statement
+</a>.
+</p>
+
+
 <h2>8. Advertising and Personalization</h2>
 
 <p>
@@ -325,7 +396,7 @@ Site, including:
   <li><strong>GitHub</strong> — website hosting</li>
   <li><strong>Cloudflare</strong> — country-detection and network services</li>
   <li><strong>Google</strong> — Google Analytics</li>
-  <li><strong>Microsoft</strong> — email communications through Outlook</li>
+  <li><strong>Microsoft</strong> — Microsoft Clarity website analytics and email communications through Outlook</li>
   <li><strong>Comment or spam-prevention providers</strong>, if such features are enabled</li>
 </ul>
 
@@ -388,6 +459,14 @@ to legitimate operational, security, legal, or record-keeping requirements.
     <strong>Google Analytics:</strong>
     Analytics information is retained according to the settings configured
     for the Analytics property and Google's applicable policies.
+  </li>
+
+  <li>
+    <strong>Microsoft Clarity:</strong>
+    Clarity session recordings are generally retained for 30 days.
+    Heatmaps, click data, and specially labeled or favorited sessions
+    may be retained for longer periods according to Microsoft's
+    current data-retention policies.
   </li>
 
   <li>
