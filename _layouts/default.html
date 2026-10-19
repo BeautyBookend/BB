@@ -309,18 +309,25 @@
       /*
 		 * MICROSOFT CLARITY - ANALYTICS REJECTED
 		 *
-		 * Revoke analytics storage consent and stop
-		 * Clarity recording if it was previously loaded.
+		 * Revoke Clarity analytics storage consent and
+         * reload the page if Clarity was previously loaded.
 		 */
-		if (clarityLoaded && typeof window.clarity === "function") {
+		 
+		if (clarityLoaded) {
 		
-		  window.clarity("consentv2", {
-		    ad_Storage: "denied",
-		    analytics_Storage: "denied"
-		  });
-	
+		  if (typeof window.clarity === "function") {
+		    window.clarity("consentv2", {
+		      ad_Storage: "denied",
+		      analytics_Storage: "denied"
+		    });
+		  }
+		
+		  console.log("[CONSENT] Analytics withdrawn - reloading page");
+		
+		  window.location.reload();
 		
 		}
+
       console.log('[CONSENT] Analytics denied');
 
     }
