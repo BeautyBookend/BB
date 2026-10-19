@@ -210,6 +210,44 @@
    */
   let consentPageViewSent = false;
 
+	  /*
+	 * MICROSOFT CLARITY
+	 *
+	 * Clarity loads only when analytics consent is granted.
+	 * It is not loaded while consent is pending or denied.
+	 */
+	
+	let clarityLoaded = false;
+	
+	function enableMicrosoftClarity() {
+	
+	  if (!clarityLoaded) {
+	
+	    clarityLoaded = true;
+	
+	    (function(c, l, a, r, i, t, y) {
+	      c[a] = c[a] || function() {
+	        (c[a].q = c[a].q || []).push(arguments);
+	      };
+	
+	      t = l.createElement(r);
+	      t.async = 1;
+	      t.src = "https://www.clarity.ms/tag/" + i;
+	
+	      y = l.getElementsByTagName(r)[0];
+	      y.parentNode.insertBefore(t, y);
+	
+	    })(window, document, "clarity", "script", "z07of0347l");
+	  }
+	
+	   window.clarity("consentv2", {
+	    ad_Storage: "denied",
+	    analytics_Storage: "granted"
+	  });	
+	  
+	
+	}
+	
 
   /*
    * Update Analytics consent.
@@ -250,8 +288,11 @@
 
       }
 
-
+      // Enable Microsoft Clarity after analytics consent.
+         enableMicrosoftClarity();
       console.log('[CONSENT] Analytics granted');
+
+	  	
 
     } else {
 
@@ -265,7 +306,21 @@
 
       });
 
-
+      /*
+		 * MICROSOFT CLARITY - ANALYTICS REJECTED
+		 *
+		 * Revoke analytics storage consent and stop
+		 * Clarity recording if it was previously loaded.
+		 */
+		if (clarityLoaded && typeof window.clarity === "function") {
+		
+		  window.clarity("consentv2", {
+		    ad_Storage: "denied",
+		    analytics_Storage: "denied"
+		  });
+	
+		
+		}
       console.log('[CONSENT] Analytics denied');
 
     }
@@ -437,7 +492,7 @@
         name: "Necessary",
 
         description:
-          "Required for essential website functions and to remember your privacy preferences.",
+          "Allows us to use Google Analytics and Microsoft Clarity to understand website traffic and how visitors interact with Beauty Bookend.",
 
         required: true
       },
@@ -449,7 +504,7 @@
         name: "Analytics",
 
         description:
-          "Allows us to use Google Analytics to understand how visitors use Beauty Bookend and improve the website.",
+          "Allows us to use Microsoft Clarity and Google Analytics to understand how visitors use Beauty Bookend and improve the website.",
 
         defaultValue: false,
 
@@ -485,7 +540,7 @@
       banner: {
 
         description:
-          "<p>Beauty Bookend uses necessary technologies to operate the website. With your permission, we also use Google Analytics to understand how visitors use the site. Analytics is optional.</p>",
+          "<p>Beauty Bookend uses necessary technologies to operate the website. With your permission, we also use Microsoft Clarity and Google Analytics to understand how visitors use the site. Analytics is optional.</p>",
 
         acceptAllButtonText:
           "Accept all",
