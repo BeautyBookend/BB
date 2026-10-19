@@ -107,20 +107,37 @@ include:
 
 <h2>3. Website Hosting</h2>
 
+
+<h2>3. Website Hosting</h2>
+
 <p>
-Beauty Bookend is hosted using <strong>GitHub Pages</strong>, a service
-provided by GitHub.
+Beauty Bookend is hosted primarily using
+<strong>Cloudflare Pages</strong>, a website hosting
+service provided by Cloudflare.
 </p>
 
 <p>
-GitHub may process technical information associated with requests to the
-Site, including IP addresses and other network information, for purposes such
-as delivering, maintaining, securing, and protecting its services.
+Cloudflare may process technical information associated
+with visits to the Site, including IP addresses, browser
+information, and network requests, to deliver, maintain,
+secure, and protect its services.
 </p>
 
 <p>
-GitHub operates according to its own privacy policies and data-processing
-practices.
+A legacy version of Beauty Bookend may remain available
+through <strong>GitHub Pages</strong> for redirection
+to the current Cloudflare-hosted website.
+</p>
+
+<p>
+GitHub may process technical information associated
+with requests to the legacy website according to its
+own privacy policies and data-processing practices.
+</p>
+
+<p>
+Cloudflare and GitHub operate according to their
+respective privacy policies and applicable terms.
 </p>
 
 
@@ -393,8 +410,8 @@ Site, including:
 </p>
 
 <ul>
-  <li><strong>GitHub</strong> — website hosting</li>
-  <li><strong>Cloudflare</strong> — country-detection and network services</li>
+  <li><strong>Cloudflare</strong> — primary website hosting, country-detection and network services</li>
+  <li><strong>GitHub</strong> — legacy website hosting and redirection services</li>
   <li><strong>Google</strong> — Google Analytics</li>
   <li><strong>Microsoft</strong> — Microsoft Clarity website analytics and email communications through Outlook</li>
   <li><strong>Comment or spam-prevention providers</strong>, if such features are enabled</li>
@@ -518,8 +535,8 @@ information about its privacy practices and obtain consent where appropriate.
 </p>
 
 <p>
-Canadian visitors are currently placed in the consent-required group for
-Google Analytics.
+Canadian visitors are currently placed in the consent-required group for Google Analytics
+and Microsoft Clarity.
 </p>
 
 <p>
