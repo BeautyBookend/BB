@@ -13,7 +13,7 @@ permalink: /contact/
 
 <br /><br />
 
-<h1>Contact</h1>
+<h2>Contact</h2>
 
 <p><strong>Last updated: March 19, 2026</strong></p>
 
