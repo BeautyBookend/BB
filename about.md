@@ -13,7 +13,7 @@ permalink: /about/
 
 <br /><br />
 
-<h1>About</h1>
+<h2>About</h2>
 
 <p><strong>Last updated: March 19, 2026</strong></p>
 
