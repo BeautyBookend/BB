@@ -13,7 +13,7 @@ permalink: /privacy/
 
 <br /><br />
 
-<h1>Privacy Policy</h1>
+<h2>Privacy Policy</h2>
 
 <p><strong>Last updated: October 19, 2026</strong></p>
 
