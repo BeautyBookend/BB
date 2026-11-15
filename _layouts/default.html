@@ -659,6 +659,13 @@
 {% unless page.layout == 'post' %}
 
 <style>
+  @media only screen and (max-width: 768px) {
+	.header-top {
+	     height: 80px;
+		 gap: 20px;  
+		} 
+	} /* Mobile - end */  
+		
   @media only screen and (min-width: 820px) {
 
     .header-top {
@@ -669,7 +676,7 @@
       margin-right: 0 !important;
     }
 
-  }
+  } /* Desktop - end */
 </style>
 <!-- Centre header on all pages EXCEPT blog posts - END -->	
 
