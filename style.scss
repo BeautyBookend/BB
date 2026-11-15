@@ -1841,63 +1841,57 @@ body img {
 
 @media only screen and (min-width: 820px) and (max-width: 2000px) {
 
-/* Prevent site avatar from overlapping site name */
-.site-avatar {
-  display: inline-block !important;
-  height: 100px !important;
-  width: 100px !important; 
-  vertical-align: middle !important;	
-  z-index: 1 !important;  	
+/* ==================================================
+   BEAUTY BOOKEND - CONSISTENT DESKTOP HEADER
+   Applies to all pages, including blog posts
+   ================================================== */
+
+@media only screen and (min-width: 820px) and (max-width: 2000px) {
+
+  .header-top {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 1000px !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .header-top .site-avatar {
+    display: block !important;
+    position: static !important;
+    flex-shrink: 0;
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+
+  .header-top .site-avatar img {
+    border: none !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .header-top .site-info {
+    display: flex;
+    flex-direction: column;
+    float: none !important;
+    margin: 0 !important;
+  }
+
+  .header-top .site-name {
+    position: static !important;
+    display: block !important;
+    margin: 0 !important;
+    transform: none !important;
+    width: auto !important;
+    text-align: center;
+    font-size: 50px !important;
+  }
+
 }
-
-.site-avatar img {
-	border: none !important;	
- }
-	
-.site-name {
-  position: relative !important;
-  display: inline-block !important;
-  vertical-align: middle !important;	
-  z-index: 2 !important;	
-}
-
-.header-top {
- max-width: 1000px !important;
- display: flex !important;
- align-items: center !important;
- gap: 3px !important;
- margin-bottom: 15px !important;
-}	
-
-/* ==========================================
-   BEAUTY BOOKEND - HEADER ALIGNMENT FIX
-   Applies to ALL pages, including posts
-   ========================================== */
-
-.header-top {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 20px !important;
-}
-
-.header-top .site-avatar {
-  position: static !important;
-  margin: 0 !important;
-  transform: none !important;
-  flex-shrink: 0;
-}
-
-.header-top .site-name {
-  position: static !important;
-  margin: 0 !important;
-  transform: none !important;
-  flex: 0 1 auto;
-  width: auto !important;
-  text-align: center;
-}
-
- 	
 
 } /* Desktop end */
 	
