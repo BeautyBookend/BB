@@ -1831,7 +1831,11 @@ body img {
  }
    .site-name {
 	margin-top: 50px;
-    }	
+    }
+
+   .header-top {
+     height: 120px;
+	}   
 
 } /* Mobile end     */
 	
@@ -1845,7 +1849,7 @@ body img {
   height: 100px !important;
   width: 100px !important; 
   margin-right: 12px !important;
-  z-index: 1 !important;  
+  z-index: 1 !important;  	
 }
 
 .site-avatar img {
@@ -1864,17 +1868,22 @@ body:not(.post) {
 
   /* Position avatar and site name 20px apart */
 .header-top {
-  display: flex;
-  align-items: left;
-  gap: 0px;
+  display: flex !important;
+  align-items: left !important;
+  gap: 0px !important;
 }
 
-.header-top .site-avatar,
-.header-top .site-name {
-  position: static;
-  margin: 0;
-  transform: none;
+.site-avatar,
+.site-name {
+  position: static !important;
+  margin: 0 !important;
+  transform: none !important;
 }
+.site-avatar {
+   horizontal-align: right !important;
+   margin-left: 200px;	
+}
+	
 
 } /* Apply to all pages EXCEPT blog posts */	
 	
