@@ -1864,7 +1864,7 @@ body img {
 }
 
 .header-top {
- max-width: 300px;
+ max-width: 1000px;
  }	
 
 /* Apply to all pages EXCEPT blog posts */
@@ -1873,8 +1873,7 @@ body:not(.post) {
   /* Position avatar and site name 20px apart */
 .header-top {
   display: flex !important;
-  align-items: left !important;
-  gap: 0px !important;
+  gap: -100px !important;
 }
 
 .site-avatar,
