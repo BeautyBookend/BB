@@ -1843,12 +1843,11 @@ body img {
 
 /* Prevent site avatar from overlapping site name */
 .site-avatar {
-  position: relative !important;
+  /*position: relative !important;*/
   display: inline-block !important;
-  vertical-align: middle !important;
   height: 100px !important;
   width: 100px !important; 
-  margin-right: 12px !important;
+  vertical-align: middle !important;	
   z-index: 1 !important;  	
 }
 
