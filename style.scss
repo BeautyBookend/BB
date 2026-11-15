@@ -1802,7 +1802,7 @@ ol {
   margin-left: 10px;
 }		 	 
 
-/* Font Sizes - start **************************************/	 
+/* Font Sizes - end **************************************/	 
 
 } /* End Mobile */		
 
@@ -1814,36 +1814,40 @@ body img {
 .TypesCat img {border: 2px solid #000 !important;}
 .AutoCat img {border: 2px solid #000 !important;}
 .DevOpsCat img {border: 2px solid #000 !important;}	
+
+/* Style Site Avatar and Site Name */
+ @media only screen and (max-width: 768px) {
+.site-avatar {
+	height: 60px !important;
+	width: 60px !important;  
+    float: none !important;
+    display: block !important;
+    margin: 0 auto !important;
+	border: none !important;
+  }	
+
+} /* Mobile end     */
 	
 @media only screen and (min-width: 820px) and (max-width: 2000px) {
 
 /* Prevent site avatar from overlapping site name */
 .site-avatar {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 12px;
-  z-index: 1;
-
-  @include mobile {
-	height: 60px;
-	width: 60px;  
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }	
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  height: 100px !important;
+  width: 100px !important; 
+  border: none !important;	
+  margin-right: 12px !important;
+  z-index: 1 !important;  
 }
 .site-name {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 400px;		
-  z-index: 2;
-
-  @include mobile {
-	  margin-top: 30px;
-  }		
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  max-width: 400px !important;	
+  z-index: 2 !important;	
 }
 	
 
-}	
+} /* Desktop End */
