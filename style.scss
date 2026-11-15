@@ -1838,5 +1838,33 @@ body img {
 	}   
 
 } /* Mobile end     */
+
+@media only screen and (min-width: 820px) and (max-width: 2000px) {
+
+/* Prevent site avatar from overlapping site name */
+.site-avatar {
+  display: inline-block !important;
+  height: 100px !important;
+  width: 100px !important; 
+  vertical-align: middle !important;	
+  z-index: 1 !important;  	
+}
+
+.site-avatar img {
+	border: none !important;	
+ }
+	
+.site-name {
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;	
+  z-index: 2 !important;	
+}
+
+.header-top {
+ max-width: 1000px;
+ }	
+
+} /* Desktop end  */
 	
 
