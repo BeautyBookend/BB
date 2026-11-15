@@ -1830,7 +1830,7 @@ body img {
 	border-radius: 100%   
  }
    .site-name {
-	margin-top: 50px;
+	margin-top: 80px;
     }
 
    .header-top {
@@ -1862,6 +1862,10 @@ body img {
   vertical-align: middle !important;	
   z-index: 2 !important;	
 }
+
+.header-top {
+ max-width: 300px;
+ }	
 
 /* Apply to all pages EXCEPT blog posts */
 body:not(.post) {
