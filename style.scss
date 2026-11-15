@@ -1869,13 +1869,32 @@ body img {
  margin-bottom: 15px !important;
 }	
 
-/* Apply to all pages EXCEPT blog post pages */
-body.non-post-page {
+/* ==========================================
+   BEAUTY BOOKEND - HEADER ALIGNMENT FIX
+   Applies to ALL pages, including posts
+   ========================================== */
+
 .header-top {
- display: inline-block !important;	
- margin-left: 300px !important;	
-}	
-	
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 20px !important;
+}
+
+.header-top .site-avatar {
+  position: static !important;
+  margin: 0 !important;
+  transform: none !important;
+  flex-shrink: 0;
+}
+
+.header-top .site-name {
+  position: static !important;
+  margin: 0 !important;
+  transform: none !important;
+  flex: 0 1 auto;
+  width: auto !important;
+  text-align: center;
 }
 
  	
