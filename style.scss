@@ -1823,8 +1823,11 @@ body img {
     float: none !important;
     display: block !important;
     margin: 0 auto !important;
-	border: none !important;
   }	
+
+  .site-avatar img {
+	border: none !important;	
+ }
 
 } /* Mobile end     */
 	
@@ -1837,10 +1840,14 @@ body img {
   vertical-align: middle !important;
   height: 100px !important;
   width: 100px !important; 
-  border: none !important;	
   margin-right: 12px !important;
   z-index: 1 !important;  
 }
+
+.site-avatar img {
+	border: none !important;	
+ }
+	
 .site-name {
   position: relative !important;
   display: inline-block !important;
@@ -1848,6 +1855,26 @@ body img {
   max-width: 400px !important;	
   z-index: 2 !important;	
 }
+
+/* Apply to all pages EXCEPT blog posts */
+body:not(.post) {
+
+  /* Position avatar and site name 20px apart */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-top .site-avatar,
+.header-top .site-name {
+  position: static;
+  margin: 0;
+  transform: none;
+}
+
+} /* Apply to all pages EXCEPT blog posts */	
 	
 
 } /* Desktop End */
