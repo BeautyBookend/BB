@@ -1872,6 +1872,7 @@ body img {
 /* Apply to all pages EXCEPT blog post pages */
 body.non-post-page {
 .header-top {
+ display: inline-block !important;	
  margin-left: 300px !important;	
 }	
 	
