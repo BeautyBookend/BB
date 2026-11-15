@@ -186,12 +186,7 @@ img {
 }
 
 @media only screen and (max-width: 780px) {
-.site-avatar {
-  margin-top: 15px;	
-}	
-.site-name {
-  margin-top: -40px;	
-}
+
 } /* End Mobile */
 	
 
@@ -1866,11 +1861,13 @@ body img {
 .site-avatar {
   position: relative;
   display: inline-block;
-  vertical-align: left;
+  vertical-align: middle;
   margin-right: 12px;
   z-index: 1;
 
   @include mobile {
+	height: 60px;
+	width: 60px;  
     float: none;
     display: block;
     margin: 0 auto;
@@ -1879,12 +1876,14 @@ body img {
 .site-name {
   position: relative;
   display: inline-block;
-  vertical-align: left;
-  max-width: 300px;		
+  vertical-align: middle;
+  max-width: 400px;		
   z-index: 2;
+
+  @include mobile {
+	  margin-top: 30px;
+  }		
 }
-
-
-
+	
 
 }	
