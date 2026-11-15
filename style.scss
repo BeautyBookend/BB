@@ -1871,16 +1871,21 @@ body:not(.post) {
 
   /* Position avatar and site name 20px apart */
 .header-top {
-  display: flex !important;
-  gap: -100px !important;
+  display: inline-block !important;
+  gap: 0px !important;
 }
 
-.site-avatar,
+
 .site-name {
   position: static !important;
   margin: 0 !important;
   transform: none !important;
 }
+.site-avatar (
+  position: static !important;
+  margin: 0 !important;
+  transform: none !important;
+)	
 
 } /* Apply to all pages EXCEPT blog posts */	
 	
