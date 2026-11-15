@@ -1866,16 +1866,23 @@ body img {
 .site-avatar {
   position: relative;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: left;
   margin-right: 12px;
   z-index: 1;
 }
-
 .site-name {
   position: relative;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: left;
+  max-width: 300px;		
   z-index: 2;
 }
+
+@include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
 
 }	
