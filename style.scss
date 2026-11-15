@@ -1869,6 +1869,12 @@ body img {
   vertical-align: left;
   margin-right: 12px;
   z-index: 1;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }	
 }
 .site-name {
   position: relative;
@@ -1878,11 +1884,7 @@ body img {
   z-index: 2;
 }
 
-@include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+
 
 
 }	
