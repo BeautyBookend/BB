@@ -1870,9 +1870,9 @@ body img {
 }	
 
 /* Apply to all pages EXCEPT blog posts */
-body:not(.post) {
+body:(.post) {
 .header-top {
- margin-left: 300px !important;	
+ margin-left: 0px !important;	
 }	
 	
 }
