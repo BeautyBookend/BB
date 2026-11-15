@@ -654,6 +654,28 @@
 
 <!-- SILKTIDE CONSENT MANAGER - END -->
 
+
+<!-- Centre header on all pages EXCEPT blog posts -->
+{% unless page.layout == 'post' %}
+
+<style>
+  @media only screen and (min-width: 820px) {
+
+    .header-top {
+      position: relative !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+  }
+</style>
+<!-- Centre header on all pages EXCEPT blog posts - END -->	
+
+{% endunless %}
+	
+
 </head>
 <body style="background: #f5eaed;">
 
