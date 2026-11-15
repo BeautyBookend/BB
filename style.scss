@@ -1877,5 +1877,23 @@ body img {
 .AutoCat img {border: 2px solid #000 !important;}
 .DevOpsCat img {border: 2px solid #000 !important;}	
 	
+@media only screen and (min-width: 820px) and (max-width: 2000px) {
 
+.site-avatar img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 200px;
 
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+}	
