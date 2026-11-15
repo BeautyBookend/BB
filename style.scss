@@ -894,14 +894,6 @@ th, td {
   height: 0px;	
 }
 
-/* SITE AVATAR/LOGO */
-.site-avatar img {
-  display:block;	
-  border-radius: 100%;
-  width: 100px;
-  height: 70px;
-  border: none;	
-} 
 
   /* BREADCRUMBS */  
 .breadcrumbs .current-page-title {
@@ -1024,13 +1016,6 @@ th, td {
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
-  }
-
-  .site-avatar img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-left: 250px;
   }
 
   .site-info {
@@ -1170,15 +1155,6 @@ html, body {
   overflow-x: hidden;
 }
 
-.site-avatar img {
-   margin-top: 60px; 	  
- }	
-
- .site-name {
-   margin-top: 60px; 	 
-  }	 
-	  
-
 /* Fix the magnifying glass container positioning */
 .mobile-search-container {
   position: fixed;
@@ -1250,17 +1226,7 @@ html, body {
   }
 } /* End Desktop */
 /* SEARCH RESULTS - END */
-
-/* AVATAR AND SITE TITLE */
-@media only screen and (max-width: 780px) {
-.site-avatar img {
-   margin-bottom: 0px; 	  
- }	
- .site-name {
-   margin-top: -5px; 	 
-  }
-	  
-} /* End Mobile */	
+	
 
 /* Post Image Capture */
 figcaption {
@@ -1282,12 +1248,6 @@ figcaption {
             margin-bottom: 15px;
           }
         
-          .site-avatar img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            margin-left: 250px;
-          }
         
           .site-info {
             display: flex;
