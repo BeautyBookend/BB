@@ -1818,16 +1818,20 @@ body img {
 /* Style Site Avatar and Site Name */
  @media only screen and (max-width: 768px) {
 .site-avatar {
-	height: 60px !important;
-	width: 60px !important;  
+	height: 80px !important;
+	width: 80px !important;  
     float: none !important;
     display: block !important;
     margin: 0 auto !important;
   }	
 
-  .site-avatar img {
-	border: none !important;	
+   .site-avatar img {
+	border: none !important;
+	border-radius: 100%   
  }
+   .site-name {
+	margin-top: 50px;
+    }	
 
 } /* Mobile end     */
 	
@@ -1851,8 +1855,7 @@ body img {
 .site-name {
   position: relative !important;
   display: inline-block !important;
-  vertical-align: middle !important;
-  max-width: 400px !important;	
+  vertical-align: middle !important;	
   z-index: 2 !important;	
 }
 
@@ -1862,9 +1865,8 @@ body:not(.post) {
   /* Position avatar and site name 20px apart */
 .header-top {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  align-items: left;
+  gap: 0px;
 }
 
 .header-top .site-avatar,
