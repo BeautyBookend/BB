@@ -1843,7 +1843,6 @@ body img {
 
 /* Prevent site avatar from overlapping site name */
 .site-avatar {
-  /*position: relative !important;*/
   display: inline-block !important;
   height: 100px !important;
   width: 100px !important; 
@@ -1869,7 +1868,7 @@ body img {
 /* Apply to all pages EXCEPT blog posts */
 body:not(.post) {
 
-  /* Position avatar and site name 20px apart */
+/* Position avatar and site name 20px apart */
 .header-top {
   display: inline-block !important;
   gap: 0px !important;
