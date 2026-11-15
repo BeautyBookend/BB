@@ -631,16 +631,7 @@ ul, ol {
 ol {
   list-style-type: decimal;
   margin-left: 20px;
-}
-
-.site-avatar {
-  width: 70px !important;
-  height: 70px !important;
-  margin-left: -200px !important;
-}
-  	 
-	 
-	   
+}	   
 
 } /* End Desktop */	
 
@@ -764,6 +755,17 @@ tr:nth-child(even) {
 tr:last-child td {
   border-bottom: 2px solid #000000;
 }
+
+ @media only screen and (min-width: 820px) and (max-width: 2000px) {
+
+	.site-avatar {
+     width: 70px !important;
+     height: 70px !important;
+     margin-left: -200px !important;
+	 display: none !important;	
+    } 
+
+ }	 
   
 </style>  
   
