@@ -1,6 +1,6 @@
 # Allow all crawlers to access the site, except for the feed file
 User-agent: *
-Disallow: /feed.xml
+Disallow: /
 
 # Sitemap for better indexing
 Sitemap: https://beautybookend.pages.dev/sitemap.xml
