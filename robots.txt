@@ -1,7 +1,7 @@
-# Allow all crawlers to access the site, except for the feed file
+# Allow all search engines to crawl Beauty Bookend
 User-agent: *
-Disallow: /
+Disallow:
 
-# Sitemap for better indexing
+# XML Sitemap
 Sitemap: https://beautybookend.pages.dev/sitemap.xml
 
